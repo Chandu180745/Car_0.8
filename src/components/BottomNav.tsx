@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { Car, Brain, BarChart3, MessageSquare } from "lucide-react";
+import { Car, Brain, BarChart3, MessageSquare, Database } from "lucide-react";
 
 const sections = [
-  { id: "hero", label: "Home", icon: Car },
-  { id: "predict-section", label: "Predict", icon: BarChart3 },
-  { id: "how-it-works", label: "How It Works", icon: Brain },
-  { id: "footer", label: "Contact", icon: MessageSquare },
+  { id: "hero", icon: Car, label: "Home" },
+  { id: "predict-section", icon: BarChart3, label: "Predict" },
+  { id: "dataset", icon: Database, label: "Dataset" },
+  { id: "how-it-works", icon: Brain, label: "How It Works" },
+  { id: "footer", icon: MessageSquare, label: "Contact" },
 ];
 
 const BottomNav = () => {
@@ -15,7 +16,6 @@ const BottomNav = () => {
   useEffect(() => {
     const handleScroll = () => {
       setVisible(window.scrollY > 300);
-
       const offsets = sections.map(({ id }) => {
         const el = document.getElementById(id);
         if (!el) return { id, top: Infinity };
@@ -24,7 +24,6 @@ const BottomNav = () => {
       const closest = offsets.reduce((a, b) => (a.top < b.top ? a : b));
       setActive(closest.id);
     };
-
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -36,18 +35,18 @@ const BottomNav = () => {
       }`}
     >
       <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-card/80 backdrop-blur-xl border border-border/60 shadow-[0_8px_40px_rgba(0,0,0,0.5)]">
-        {sections.map(({ id, label, icon: Icon }) => (
+        {sections.map(({ id, icon: Icon, label }) => (
           <button
             key={id}
             onClick={() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium transition-all duration-300 active:scale-[0.95] ${
+            title={label}
+            className={`flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 active:scale-[0.95] ${
               active === id
                 ? "bg-primary text-primary-foreground shadow-[0_0_16px_hsl(215_90%_56%/0.4)]"
                 : "text-muted-foreground hover:text-foreground hover:bg-secondary"
             }`}
           >
-            <Icon className="w-4 h-4" />
-            <span className="hidden sm:inline">{label}</span>
+            <Icon className="w-4.5 h-4.5" />
           </button>
         ))}
       </div>
