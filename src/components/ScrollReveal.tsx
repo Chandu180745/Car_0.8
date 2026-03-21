@@ -4,35 +4,42 @@ interface ScrollRevealProps {
   children: ReactNode;
   className?: string;
   delay?: number;
+  direction?: "up" | "left" | "right" | "scale";
 }
 
-const ScrollReveal = ({ children, className = "", delay = 0 }: ScrollRevealProps) => {
+const ScrollReveal = ({ children, className = "", delay = 0, direction = "up" }: ScrollRevealProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
-    el.style.opacity = "0";
-    el.style.transform = "translateY(20px)";
-    el.style.filter = "blur(4px)";
-    el.style.transition = `all 0.7s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`;
+    const hiddenClass = direction === "left" ? "scroll-hidden-left"
+      : direction === "right" ? "scroll-hidden-right"
+      : direction === "scale" ? "scroll-hidden-scale"
+      : "scroll-hidden";
+
+    const visibleClass = direction === "left" ? "scroll-visible-left"
+      : direction === "right" ? "scroll-visible-right"
+      : direction === "scale" ? "scroll-visible-scale"
+      : "scroll-visible";
+
+    el.classList.add(hiddenClass);
+    el.style.transitionDelay = `${delay}ms`;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          el.style.opacity = "1";
-          el.style.transform = "translateY(0)";
-          el.style.filter = "blur(0)";
+          el.classList.add(visibleClass);
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.12 }
     );
 
     observer.observe(el);
     return () => observer.disconnect();
-  }, [delay]);
+  }, [delay, direction]);
 
   return (
     <div ref={ref} className={className}>

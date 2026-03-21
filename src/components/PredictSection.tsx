@@ -67,7 +67,6 @@ const PredictSection = () => {
       prediction = demo[Math.floor(Math.random() * demo.length)];
     }
 
-    // Find similar cars from dataset
     try {
       const similar = await findSimilarCars(
         form.buying_price,
@@ -80,7 +79,7 @@ const PredictSection = () => {
       );
       setMatches(similar);
     } catch {
-      // silently fail if dataset unavailable
+      // silently fail
     }
 
     setResult(prediction);
@@ -101,7 +100,7 @@ const PredictSection = () => {
           <p className="text-muted-foreground">Enter car specifications below for an AI-powered assessment.</p>
         </ScrollReveal>
 
-        <ScrollReveal delay={100}>
+        <ScrollReveal delay={100} direction="scale">
           <div className="glass-card p-6 sm:p-8">
             {/* Buying Price Slider */}
             <div className="mb-6">
@@ -202,7 +201,6 @@ const PredictSection = () => {
           </div>
         </ScrollReveal>
 
-        {/* Result */}
         {result && (
           <div className="mt-8">
             <ResultCard prediction={result} matches={matches} />
