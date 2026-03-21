@@ -1,0 +1,1051 @@
+Car_ID,Car_Name,Year,Engine_HP,Buying_Price_Lakh,Maintenance_Cost,Safety_Rating,Mileage,Class,Modern_Technologies
+1,Tata Nexon,2023,Moderate,12.0,Low,High,Medium,Recommended,Touchscreen|Camera|Connected Car Tech
+2,Tata Harrier,2022,Moderate,20.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Panoramic Sunroof
+3,Tata Safari,2023,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Ventilated Seats
+4,Tata Punch,2023,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Voice Command
+5,Tata Altroz,2022,Weak,9.0,Low,High,High,Recommended,Touchscreen|Camera|Ambient Lighting
+6,Tata Tiago,2021,Weak,6.5,Low,High,High,Recommended,Touchscreen|Bluetooth|Digital Instrument Cluster
+7,Tata Tigor,2022,Weak,8.0,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+8,Tata Nexon_EV,2023,Moderate,16.5,Low,High,High,Recommended,Touchscreen|Camera|EV Telematics|Regen Braking
+9,Tata Tiago_EV,2023,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|EV Telematics
+10,Tata Hexa,2019,Moderate,13.0,Medium,High,Medium,Recommended,Touchscreen|Camera|JBL Audio
+11,Tata Aria,2015,Moderate,6.0,Medium,Medium,Medium,Good,Bluetooth|Projector Headlamps
+12,Tata Indica,2017,Weak,2.5,Low,Low,High,Poor,Air Conditioning|Power Windows
+13,Tata Indigo,2016,Weak,3.0,Low,Low,High,Poor,Air Conditioning|Bluetooth
+14,Tata Nano,2018,Weak,1.5,Low,Low,High,Poor,Bluetooth|Power Steering
+15,Tata Sumo,2019,Weak,7.0,Low,Low,High,Poor,Power Steering|Dual AC
+16,Mahindra XUV700,2023,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Alexa Integration
+17,Mahindra Scorpio-N,2023,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Car Tech
+18,Mahindra Thar,2022,Moderate,17.0,Medium,High,Medium,Recommended,Touchscreen|4WD|Off-Road Telematics
+19,Mahindra XUV300,2021,Moderate,12.0,Low,High,Medium,Recommended,Touchscreen|Camera|Dual-Zone AC
+20,Mahindra XUV500,2020,Moderate,14.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+21,Mahindra Bolero,2023,Weak,10.0,Low,Low,High,Poor,Bluetooth|Micro-Hybrid Tech
+22,Mahindra Bolero_Neo,2022,Weak,11.5,Low,Medium,High,Good,Bluetooth|Micro-Hybrid Tech
+23,Mahindra Marazzo,2020,Moderate,13.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Roof AC
+24,Mahindra KUV100,2019,Weak,6.0,Low,Low,High,Poor,Bluetooth|Joystick Gear
+25,Mahindra Alturas_G4,2021,Moderate,28.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+26,Mahindra XUV400_EV,2023,Moderate,18.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech|Regen Braking
+27,Mahindra TUV300,2019,Weak,8.5,Low,Medium,High,Good,Bluetooth|Steering Controls
+28,Mahindra Quanto,2016,Weak,4.5,Low,Low,High,Poor,Micro-Hybrid Tech
+29,Mahindra Verito,2017,Weak,4.0,Low,Low,High,Poor,Air Conditioning|Power Windows
+30,Mahindra Xylo,2018,Moderate,7.5,Medium,Low,Medium,Poor,Bluetooth|Dual AC
+31,Maruti_Suzuki Swift,2022,Weak,8.0,Low,Low,High,Poor,Touchscreen|Camera|Keyless Entry
+32,Maruti_Suzuki Baleno,2023,Weak,9.5,Low,Low,High,Poor,Touchscreen|Camera|HUD|360 Camera
+33,Maruti_Suzuki Brezza,2022,Moderate,12.0,Low,High,Medium,Recommended,Touchscreen|Camera|HUD|SmartPlay Pro
+34,Maruti_Suzuki Ertiga,2021,Moderate,11.0,Low,Medium,Medium,Good,Touchscreen|Camera|Smart Hybrid
+35,Maruti_Suzuki Grand_Vitara,2023,Moderate,18.0,Low,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof|Strong Hybrid
+36,Maruti_Suzuki Fronx,2023,Weak,10.5,Low,Low,High,Poor,Touchscreen|Camera|HUD|Wireless Charging
+37,Maruti_Suzuki Jimny,2023,Moderate,15.0,Low,Low,Medium,Poor,Touchscreen|Camera|4WD|SmartPlay Pro
+38,Maruti_Suzuki Alto_K10,2022,Weak,5.0,Low,Low,High,Poor,Touchscreen|Bluetooth
+39,Maruti_Suzuki Dzire,2021,Weak,8.5,Low,Low,High,Poor,Touchscreen|Camera|Keyless Entry
+40,Maruti_Suzuki Ciaz,2022,Moderate,11.5,Low,High,Medium,Recommended,Touchscreen|Camera|Smart Hybrid
+41,Maruti_Suzuki XL6,2023,Moderate,13.5,Low,Medium,Medium,Good,Touchscreen|Camera|Ventilated Seats
+42,Maruti_Suzuki Ignis,2021,Weak,7.0,Low,Medium,High,Good,Touchscreen|Camera|Push Button Start
+43,Maruti_Suzuki S-Cross,2020,Moderate,10.5,Low,High,Medium,Recommended,Touchscreen|Camera|Smart Hybrid
+44,Maruti_Suzuki Celerio,2022,Weak,6.0,Low,Low,High,Poor,Touchscreen|Bluetooth
+45,Maruti_Suzuki WagonR,2023,Weak,7.5,Low,Low,High,Poor,Touchscreen|Bluetooth
+46,Hyundai Creta,2023,Moderate,18.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Panoramic Sunroof|BlueLink
+47,Hyundai Venue,2022,Moderate,13.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|BlueLink
+48,Hyundai i20,2021,Moderate,10.5,Low,Medium,Medium,Good,Touchscreen|Camera|Bose Audio|BlueLink
+49,Hyundai Verna,2023,Moderate,16.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Heated Seats
+50,Hyundai Tucson,2022,Moderate,31.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|AWD
+51,Hyundai Exter,2023,Weak,8.5,Low,Low,High,Poor,Touchscreen|Camera|Dashcam|Voice Sunroof
+52,Hyundai Alcazar,2022,Moderate,21.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Digital Cluster|BlueLink
+53,Hyundai Aura,2021,Weak,8.5,Low,Low,High,Poor,Touchscreen|Camera|Bluetooth
+54,Hyundai Grand_i10_Nios,2022,Weak,8.0,Low,Low,High,Poor,Touchscreen|Camera|Wireless Charging
+55,Hyundai Santro,2020,Weak,5.5,Low,Low,High,Poor,Touchscreen|Bluetooth|Rear AC
+56,Hyundai Eon,2018,Weak,3.5,Low,Low,High,Poor,Air Conditioning|Power Windows
+57,Hyundai Elantra,2021,Moderate,19.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+58,Hyundai Sonata,2014,Moderate,8.0,Medium,High,Medium,Recommended,Bluetooth|Ventilated Seats
+59,Hyundai Santa_Fe,2016,Moderate,15.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD
+60,Hyundai Ioniq_5,2023,Moderate,46.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|V2L
+61,Honda City,2023,Moderate,16.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|LaneWatch
+62,Honda Amaze,2022,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+63,Honda Elevate,2023,Moderate,17.0,Low,Low,Medium,Poor,Touchscreen|Camera|ADAS|LaneWatch
+64,Honda Jazz,2020,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Magic Seats
+65,Honda WR-V,2021,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Sunroof
+66,Honda Brio,2018,Weak,5.0,Low,Medium,High,Good,Bluetooth|Steering Controls
+67,Honda BR-V,2019,Moderate,9.5,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+68,Honda CR-V,2020,Moderate,28.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|LaneWatch
+69,Honda Civic,2020,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|LaneWatch|Digital Display
+70,Honda Accord,2019,Moderate,38.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Hybrid System|LaneWatch
+71,Honda Mobilio,2016,Moderate,6.0,Low,Medium,Medium,Good,Bluetooth|Rear AC
+72,Honda City_eHEV,2023,Moderate,20.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|Strong Hybrid
+73,Toyota Innova_Crysta,2021,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Tech
+74,Toyota Innova_Hycross,2023,Moderate,30.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|Strong Hybrid
+75,Toyota Fortuner,2022,Moderate,42.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Tech|4WD
+76,Toyota Urban_Cruiser_Hyryder,2023,Moderate,19.0,Low,High,Medium,Recommended,Touchscreen|Camera|HUD|Strong Hybrid
+77,Toyota Glanza,2022,Weak,9.5,Low,Low,High,Poor,Touchscreen|Camera|HUD|360 Camera
+78,Toyota Camry,2023,Moderate,46.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Hybrid System
+79,Toyota Vellfire,2022,Moderate,115.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Executive Lounge
+80,Toyota Hilux,2023,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|4WD|A-TRAC
+81,Toyota Yaris,2020,Moderate,10.0,Low,High,Medium,Recommended,Touchscreen|Camera|7 Airbags
+82,Toyota Corolla_Altis,2019,Moderate,16.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+83,Toyota Etios,2018,Weak,6.5,Low,High,High,Recommended,Bluetooth|Steering Controls
+84,Toyota Land_Cruiser_LC300,2023,Strong,210.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Multi-Terrain Monitor
+85,Kia Seltos,2023,Moderate,19.0,Medium,Medium,Medium,Good,Touchscreen|Camera|ADAS|HUD|Bose Audio
+86,Kia Sonet,2022,Moderate,14.0,Low,Medium,Medium,Good,Touchscreen|Camera|Ventilated Seats|UVO Connect
+87,Kia Carens,2023,Moderate,18.0,Low,Medium,Medium,Good,Touchscreen|Camera|Digital Cluster|Air Purifier
+88,Kia EV6,2023,Strong,65.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|AR HUD|V2L
+89,Kia Carnival,2022,Moderate,35.0,Medium,High,Medium,Recommended,Touchscreen|Camera|VIP Seats|Dual Sunroof
+90,Kia EV9,2024,Strong,130.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Swivel Seats
+91,Kia Rio,2019,Moderate,8.0,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+92,Kia Sportage,2022,Moderate,28.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Curved Display
+93,Kia Stinger,2021,Strong,55.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Launch Control
+94,Kia Telluride,2023,Strong,65.0,High,High,Low,Good,Touchscreen|Camera|ADAS|HUD
+95,MG Hector,2023,Moderate,21.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|14-inch Display
+96,MG Hector_Plus,2022,Moderate,23.0,Medium,Low,Medium,Poor,Touchscreen|Camera|Panoramic Sunroof
+97,MG Astor,2022,Moderate,17.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|AI Assistant
+98,MG ZS_EV,2022,Moderate,26.0,Low,High,High,Recommended,Touchscreen|Camera|Panoramic Sunroof|EV Tech
+99,MG Comet_EV,2023,Weak,9.0,Low,Low,High,Poor,Touchscreen|Camera|Digital Cluster|EV Tech
+100,MG Gloster,2023,Moderate,42.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Massaging Seats
+101,MG RC6,2021,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Tech
+102,MG Marvel_R,2022,Strong,40.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+103,BYD Atto_3,2023,Moderate,34.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|Blade Battery
+104,BYD Seal,2024,Strong,55.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS|Rotating Display
+105,BYD e6,2022,Weak,29.0,Low,High,High,Recommended,Touchscreen|Camera|Blade Battery
+106,BYD Dolphin,2023,Moderate,25.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+107,BYD Seagull,2023,Weak,12.0,Low,Low,High,Poor,Touchscreen|Camera|Blade Battery
+108,BYD Han,2022,Strong,65.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS|Premium Audio
+109,BYD Tang,2022,Strong,70.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS|AWD
+110,Volkswagen Taigun,2022,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Connected Tech
+111,Volkswagen Virtus,2023,Moderate,19.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+112,Volkswagen Polo,2021,Moderate,10.0,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+113,Volkswagen Vento,2020,Moderate,11.0,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+114,Volkswagen Ameo,2019,Moderate,8.0,Low,Medium,Medium,Good,Touchscreen|Bluetooth
+115,Volkswagen Tiguan,2022,Moderate,35.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Matrix LED|AWD
+116,Volkswagen T-Roc,2021,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+117,Volkswagen Passat,2020,Moderate,32.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Park Assist
+118,Volkswagen Jetta,2017,Moderate,14.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+119,Volkswagen Touareg,2016,Moderate,25.0,High,High,Medium,Good,Touchscreen|Camera|AWD|Air Suspension
+120,Skoda Kushaq,2022,Moderate,18.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|Connected Tech
+121,Skoda Slavia,2023,Moderate,19.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+122,Skoda Octavia,2022,Moderate,30.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Canton Audio|Virtual Cockpit
+123,Skoda Superb,2023,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Matrix LED|Virtual Cockpit
+124,Skoda Kodiaq,2022,Moderate,40.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|DCC
+125,Skoda Rapid,2021,Moderate,12.0,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+126,Skoda Fabia,2015,Weak,4.0,Low,High,High,Recommended,Bluetooth|Projector Headlamps
+127,Skoda Yeti,2016,Moderate,9.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD
+128,Skoda Laura,2013,Moderate,5.0,Medium,High,Medium,Recommended,Touchscreen|Bluetooth
+129,Skoda Karoq,2020,Moderate,25.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+130,BMW 3_Series,2023,Strong,65.0,High,High,Low,Good,Touchscreen|Camera|ADAS|iDrive 8
+131,BMW 5_Series,2022,Moderate,72.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|HUD
+132,BMW 7_Series,2023,Strong,175.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Theater Screen
+133,BMW X1,2023,Moderate,50.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Curved Display
+134,BMW X3,2022,Moderate,68.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Panoramic Sunroof
+135,BMW X5,2023,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Gesture Control
+136,BMW X7,2023,Strong,130.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Air Suspension
+137,BMW Z4,2022,Strong,90.0,High,High,Low,Good,Touchscreen|Camera|ADAS|M Sport Differential
+138,BMW i4,2023,Strong,75.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Routing
+139,BMW iX,2023,Strong,120.0,High,High,High,Good,Touchscreen|Camera|ADAS|Shy Tech
+140,Mercedes-Benz C-Class,2023,Moderate,60.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|MBUX
+141,Mercedes-Benz E-Class,2023,Strong,75.0,High,High,Low,Good,Touchscreen|Camera|ADAS|MBUX|LWB
+142,Mercedes-Benz S-Class,2022,Strong,170.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Massaging Seats
+143,Mercedes-Benz GLA,2022,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|MBUX
+144,Mercedes-Benz GLC,2023,Strong,73.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Off-Road Screen
+145,Mercedes-Benz GLE,2022,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|ADAS|AR Navigation
+146,Mercedes-Benz GLS,2023,Strong,135.0,High,High,Low,Good,Touchscreen|Camera|ADAS|MBUX
+147,Mercedes-Benz G-Class,2022,Strong,250.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Locking Differentials
+148,Mercedes-Benz EQE,2023,Strong,140.0,High,High,High,Good,Touchscreen|Camera|ADAS|Hyperscreen
+149,Mercedes-Benz EQS,2022,Strong,160.0,High,High,High,Good,Touchscreen|Camera|ADAS|Hyperscreen|Rear Wheel Steering
+150,Audi A4,2023,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+151,Audi A6,2022,Moderate,65.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Matrix LED
+152,Audi A8_L,2023,Strong,135.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Rear Seat Entertainment
+153,Audi Q3,2023,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Quattro
+154,Audi Q5,2022,Moderate,63.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Quattro
+155,Audi Q7,2023,Strong,88.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Quattro
+156,Audi Q8,2022,Strong,110.0,High,High,Low,Good,Touchscreen|Camera|ADAS|HD Matrix LED
+157,Audi e-tron,2022,Strong,120.0,High,High,High,Good,Touchscreen|Camera|ADAS|EV Route Planner
+158,Audi RS5,2021,Strong,115.0,High,High,Low,Good,Touchscreen|Camera|Virtual Cockpit|Sport Exhaust
+159,Audi R8,2020,Strong,280.0,High,Low,Low,Poor,Touchscreen|Camera|Virtual Cockpit|Laser Lights
+160,Volvo XC40,2022,Moderate,46.0,High,High,Medium,Good,Touchscreen|Camera|Pilot Assist|Harman Kardon
+161,Volvo XC60,2023,Strong,68.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Bowers & Wilkins
+162,Volvo XC90,2023,Strong,98.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Air Suspension
+163,Volvo S60,2022,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|Pilot Assist|Harman Kardon
+164,Volvo S90,2023,Strong,68.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Bowers & Wilkins
+165,Volvo C40_Recharge,2023,Strong,62.0,Medium,High,High,Recommended,Touchscreen|Camera|Pilot Assist|EV Tech
+166,Volvo V90_Cross_Country,2021,Strong,70.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|AWD
+167,Volvo EX30,2024,Strong,40.0,Medium,High,High,Recommended,Touchscreen|Camera|Pilot Assist|Soundbar
+168,Jaguar XE,2021,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|Meridian Audio
+169,Jaguar XF,2022,Moderate,72.0,High,High,Medium,Good,Touchscreen|Camera|Pivi Pro|Meridian Audio
+170,Jaguar XJ,2019,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|Rear Seat Entertainment
+171,Jaguar F-Pace,2023,Moderate,78.0,High,High,Medium,Good,Touchscreen|Camera|Pivi Pro|Meridian Audio
+172,Jaguar E-Pace,2021,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|Pivi Pro
+173,Jaguar I-Pace,2022,Strong,120.0,Medium,High,High,Recommended,Touchscreen|Camera|Pivi Pro|EV Tech
+174,Land_Rover Range_Rover,2023,Strong,240.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+175,Land_Rover Range_Rover_Sport,2023,Strong,170.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Dynamic Air Suspension
+176,Land_Rover Range_Rover_Velar,2022,Moderate,90.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Pivi Pro
+177,Land_Rover Range_Rover_Evoque,2023,Moderate,75.0,High,High,Medium,Good,Touchscreen|Camera|ClearSight Ground View
+178,Land_Rover Defender,2023,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+179,Land_Rover Discovery,2022,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+180,Land_Rover Discovery_Sport,2023,Moderate,72.0,High,High,Medium,Good,Touchscreen|Camera|ClearSight Ground View
+181,Land_Rover Freelander_2,2014,Moderate,15.0,High,High,Medium,Good,Touchscreen|Bluetooth|Terrain Response
+182,Fiat Punto_Evo,2017,Weak,4.0,Low,High,High,Recommended,Bluetooth|Blue&Me
+183,Fiat Linea,2018,Moderate,5.5,Low,High,Medium,Recommended,Touchscreen|Bluetooth|Cruise Control
+184,Fiat Avventura,2016,Weak,4.5,Low,High,High,Recommended,Bluetooth|Inclinometer
+185,Fiat Urban_Cross,2017,Moderate,5.0,Low,High,Medium,Recommended,Touchscreen|Bluetooth
+186,Fiat Palio,2010,Weak,1.2,Low,Low,High,Poor,Air Conditioning|Power Steering
+187,Fiat Uno,2002,Weak,0.5,Low,Low,High,Poor,Air Conditioning
+188,Ford EcoSport,2021,Moderate,9.5,Low,High,Medium,Recommended,Touchscreen|Camera|SYNC 3
+189,Ford Endeavour,2021,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Terrain Management|Panoramic Sunroof
+190,Ford Figo,2020,Weak,6.5,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+191,Ford Aspire,2021,Weak,7.5,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+192,Ford Freestyle,2020,Weak,7.0,Low,High,High,Recommended,Touchscreen|Camera|ARP
+193,Ford Mustang,2019,Strong,75.0,High,High,Low,Good,Touchscreen|Camera|Track Apps|Line Lock
+194,Ford Fiesta,2015,Moderate,4.5,Low,High,Medium,Recommended,Bluetooth|Voice Control
+195,Ford Ikon,2010,Weak,1.5,Low,Low,High,Poor,Power Steering|Power Windows
+196,Ford Escort,2001,Weak,0.6,Low,Low,High,Poor,Power Steering|Air Conditioning
+197,Ford Mondeo,2005,Moderate,2.0,Low,High,Medium,Recommended,Air Conditioning|Power Windows
+198,Chevrolet Cruze,2017,Moderate,7.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+199,Chevrolet Beat,2016,Weak,2.5,Low,High,High,Recommended,Bluetooth|Digital Tachometer
+200,Chevrolet Spark,2015,Weak,1.8,Low,Low,High,Poor,Air Conditioning|Power Steering
+201,Chevrolet Sail,2016,Weak,3.0,Low,High,High,Recommended,Bluetooth|Power Windows
+202,Chevrolet Tavera,2015,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+203,Chevrolet Enjoy,2016,Weak,3.5,Low,Low,High,Poor,Air Conditioning|Rear AC
+204,Chevrolet Captiva,2015,Moderate,6.5,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD
+205,Chevrolet Trailblazer,2016,Moderate,12.0,Medium,High,Medium,Recommended,Touchscreen|Camera|MyLink
+206,Chevrolet Optra,2012,Moderate,2.0,Low,Low,Medium,Poor,Air Conditioning|Power Windows
+207,Chevrolet Aveo,2011,Weak,1.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+208,Renault Kwid,2023,Weak,6.0,Low,Low,High,Poor,Touchscreen|Camera|Digital Cluster
+209,Renault Kiger,2023,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Wireless Charging|Digital Cluster
+210,Renault Triber,2022,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Modular Seating
+211,Renault Duster,2021,Moderate,12.0,Low,Medium,Medium,Good,Touchscreen|Camera|AWD Option
+212,Renault Captur,2019,Moderate,9.5,Low,Medium,Medium,Good,Touchscreen|Camera|LED Headlamps
+213,Renault Scala,2015,Weak,4.0,Low,High,High,Recommended,Bluetooth|Push Button Start
+214,Renault Pulse,2016,Weak,3.5,Low,High,High,Recommended,Bluetooth|Push Button Start
+215,Renault Fluence,2015,Moderate,5.5,Medium,High,Medium,Recommended,Touchscreen|Bluetooth|Cruise Control
+216,Nissan Magnite,2023,Weak,11.0,Low,High,High,Recommended,Touchscreen|Camera|360 Camera|Wireless CarPlay
+217,Nissan Kicks,2022,Moderate,14.0,Low,Low,Medium,Poor,Touchscreen|Camera|360 Camera
+218,Nissan Micra,2019,Weak,5.5,Low,Medium,High,Good,Touchscreen|Bluetooth
+219,Nissan Sunny,2019,Weak,7.5,Low,High,High,Recommended,Touchscreen|Bluetooth
+220,Nissan Terrano,2018,Moderate,8.0,Low,High,Medium,Recommended,Touchscreen|Bluetooth
+221,Nissan X-Trail,2024,Moderate,33.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Panoramic Sunroof
+222,Nissan Teana,2014,Moderate,7.0,Medium,High,Medium,Recommended,Bluetooth|V6 Engine
+223,Nissan Evalia,2015,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Rear AC
+224,Jeep Compass,2023,Moderate,26.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Uconnect
+225,Jeep Meridian,2023,Moderate,35.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|Uconnect|AWD
+226,Jeep Wrangler,2023,Strong,62.0,High,High,Low,Good,Touchscreen|Camera|Off-Road Pages|4WD
+227,Jeep Grand_Cherokee,2023,Strong,80.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Passenger Screen
+228,Jeep Renegade,2020,Moderate,20.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Uconnect
+229,Jeep Patriot,2016,Moderate,15.0,Medium,High,Medium,Recommended,Bluetooth|4WD
+230,Jeep Cherokee,2021,Strong,45.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS
+231,Jeep Wagoneer,2022,Strong,90.0,High,Low,Low,Poor,Touchscreen|Camera|ADAS|Rear Entertainment
+232,Mini Cooper_3_Door,2023,Moderate,42.0,High,High,Medium,Good,Touchscreen|Camera|HUD
+233,Mini Cooper_5_Door,2022,Moderate,44.0,High,High,Medium,Good,Touchscreen|Camera|HUD
+234,Mini Countryman,2023,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|HUD|Picnic Bench
+235,Mini Clubman,2021,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|Split Rear Doors
+236,Mini Convertible,2023,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|HUD
+237,Mini Paceman,2015,Moderate,25.0,Medium,High,Medium,Recommended,Bluetooth|Sport Suspension
+238,Mini Roadster,2014,Moderate,22.0,Medium,High,Medium,Recommended,Bluetooth|Active Rear Spoiler
+239,Lexus ES,2023,Moderate,64.0,High,High,Medium,Good,Touchscreen|Camera|Lexus Safety System+
+240,Lexus NX,2023,Moderate,68.0,High,High,Medium,Good,Touchscreen|Camera|Lexus Safety System+|E-Latch
+241,Lexus RX,2023,Moderate,95.0,High,High,Medium,Good,Touchscreen|Camera|Lexus Safety System+|Mark Levinson Audio
+242,Lexus LX,2022,Strong,280.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Multi-Terrain Monitor
+243,Lexus LS,2023,Strong,195.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Massaging Seats
+244,Lexus LC,2022,Strong,230.0,High,Low,Low,Poor,Touchscreen|Camera|Lexus Safety System+|Carbon Fiber Roof
+245,Porsche Macan,2023,Strong,88.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect
+246,Porsche Cayenne,2023,Strong,136.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect|Air Suspension
+247,Porsche Panamera,2022,Strong,158.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect|Adaptive Air Suspension
+248,Porsche Taycan,2023,Strong,165.0,High,High,High,Good,Touchscreen|Camera|ADAS|800V Architecture
+249,Porsche 911,2023,Strong,190.0,High,Low,Low,Poor,Touchscreen|Camera|Sport Chrono
+250,Porsche 718_Cayman,2022,Strong,135.0,High,Low,Low,Poor,Touchscreen|Camera|Sport Chrono
+251,Citroen C3,2023,Moderate,7.5,Low,Low,High,Poor,Touchscreen|Bluetooth
+252,Citroen eC3,2023,Weak,11.5,Low,Low,High,Poor,Touchscreen|EV Tech
+253,Citroen C3 Aircross,2023,Moderate,11.0,Medium,Medium,Medium,Good,Touchscreen|Camera
+254,Citroen C5 Aircross,2022,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+255,Citroen Basalt,2024,Moderate,12.0,Medium,Medium,Medium,Good,Touchscreen|Camera
+256,Isuzu D-Max,2022,Moderate,19.0,Medium,Medium,Medium,Good,Touchscreen|Camera|4WD
+257,Isuzu V-Cross,2023,Moderate,25.0,Medium,Medium,Medium,Good,Touchscreen|Camera|4WD
+258,Isuzu MU-X,2022,Moderate,35.0,High,Medium,Medium,Good,Touchscreen|Camera|AWD
+259,Isuzu MU-7,2015,Moderate,20.0,Medium,Low,Medium,Poor,Bluetooth|Rear AC
+260,Isuzu Panther,2012,Weak,8.0,Low,Low,Medium,Poor,Air Conditioning
+261,Force Gurkha,2023,Moderate,15.0,Medium,Low,Medium,Poor,Touchscreen|4WD|Snorkel
+262,Force Trax Cruiser,2022,Weak,13.0,Low,Low,Medium,Poor,Air Conditioning|Dual AC
+263,Force Trax Toofan,2021,Weak,12.0,Low,Low,Medium,Poor,Air Conditioning
+264,Force One,2014,Moderate,11.0,Medium,Low,Medium,Poor,Bluetooth|Cruise Control
+265,Datsun Go,2020,Weak,5.0,Low,Low,High,Poor,Touchscreen|Bluetooth
+266,Datsun Go+,2020,Weak,5.5,Low,Low,High,Poor,Touchscreen|Bluetooth
+267,Datsun redi-GO,2021,Weak,4.0,Low,Low,High,Poor,Bluetooth|Camera
+268,Mitsubishi Pajero,2012,Moderate,15.0,Medium,Low,Medium,Poor,Bluetooth|4WD
+269,Mitsubishi Pajero Sport,2018,Moderate,28.0,High,Medium,Medium,Good,Touchscreen|Camera|4WD
+270,Mitsubishi Outlander,2019,Moderate,32.0,High,Medium,Medium,Good,Touchscreen|Camera|AWD
+271,Mitsubishi Lancer,2010,Moderate,5.0,Low,Low,Medium,Poor,Air Conditioning|Power Windows
+272,Mitsubishi Cedia,2012,Moderate,6.0,Low,Low,Medium,Poor,Bluetooth|Alloy Wheels
+273,Mitsubishi Montero,2016,Moderate,68.0,High,Medium,Medium,Good,Touchscreen|Camera|4WD
+274,Mitsubishi Lancer Evolution,2013,Strong,40.0,High,Medium,Low,Good,Touchscreen|AWD|Turbo
+275,HM Ambassador,2014,Weak,4.0,Low,Low,Medium,Poor,Air Conditioning
+276,HM Contessa,2002,Weak,3.0,Medium,Low,Low,Poor,Air Conditioning
+277,Premier Padmini,1998,Weak,1.0,Low,Low,Medium,Poor,Manual Windows
+278,Premier Rio,2012,Weak,4.5,Low,Low,Medium,Poor,Air Conditioning
+279,SsangYong Rexton,2015,Moderate,22.0,High,Medium,Medium,Good,Touchscreen|Camera|AWD
+280,DC Avanti,2016,Strong,35.0,High,Low,Low,Poor,Touchscreen|Camera
+281,Bajaj Qute,2021,Weak,2.5,Low,Low,High,Poor,Manual Windows
+282,Daewoo Matiz,2002,Weak,1.0,Low,Low,High,Poor,Air Conditioning
+283,Daewoo Cielo,1999,Weak,1.5,Medium,Low,Medium,Poor,Power Windows
+284,Opel Astra,2003,Weak,1.8,Medium,Low,Medium,Poor,Air Conditioning
+285,Opel Corsa,2005,Weak,1.5,Medium,Low,Medium,Poor,Power Steering
+286,Aston_Martin DBX,2023,Strong,380.0,High,High,Low,Good,Touchscreen|Camera|ADAS|AWD
+287,Aston_Martin DB11,2022,Strong,420.0,High,High,Low,Good,Touchscreen|Camera|V12
+288,Aston_Martin Vantage,2023,Strong,300.0,High,High,Low,Good,Touchscreen|Camera|Sport Exhaust
+289,Bentley Bentayga,2023,Strong,450.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Air Suspension
+290,Bentley Continental GT,2022,Strong,400.0,High,High,Low,Good,Touchscreen|Camera|W12
+291,Bentley Flying Spur,2023,Strong,380.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Massaging Seats
+292,Rolls_Royce Phantom,2023,Strong,950.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Starlight Headliner
+293,Rolls_Royce Ghost,2022,Strong,700.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Air Suspension
+294,Rolls_Royce Cullinan,2023,Strong,800.0,High,High,Low,Good,Touchscreen|Camera|ADAS|AWD
+295,Rolls_Royce Wraith,2021,Strong,650.0,High,High,Low,Good,Touchscreen|Camera|V12
+296,Maserati Ghibli,2022,Strong,120.0,High,High,Low,Good,Touchscreen|Camera|ADAS
+297,Maserati Quattroporte,2021,Strong,180.0,High,High,Low,Good,Touchscreen|Camera|ADAS
+298,Maserati Levante,2023,Strong,160.0,High,High,Low,Good,Touchscreen|Camera|AWD
+299,Maserati MC20,2023,Strong,350.0,High,High,Low,Good,Touchscreen|Camera|Carbon Fiber Chassis
+300,Ferrari Roma,2022,Strong,380.0,High,High,Low,Good,Touchscreen|Camera|ADAS
+301,Ferrari F8 Tributo,2021,Strong,420.0,High,High,Low,Good,Touchscreen|Camera|V8
+302,Ferrari SF90 Stradale,2023,Strong,750.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+303,Ferrari 296 GTB,2023,Strong,540.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+304,Ferrari Purosangue,2024,Strong,1050.0,High,High,Low,Good,Touchscreen|Camera|AWD|V12
+305,Lamborghini Urus,2023,Strong,400.0,High,High,Low,Good,Touchscreen|Camera|ADAS|AWD
+306,Lamborghini Huracan,2022,Strong,380.0,High,High,Low,Good,Touchscreen|Camera|V10
+307,Lamborghini Aventador,2021,Strong,650.0,High,High,Low,Good,Touchscreen|Camera|V12
+308,Lamborghini Revuelto,2024,Strong,900.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+309,Bugatti Chiron,2021,Strong,2500.0,High,High,Low,Good,Touchscreen|Camera|W16
+310,McLaren GT,2022,Strong,350.0,High,High,Low,Good,Touchscreen|Camera|Carbon Fiber
+311,McLaren 720S,2021,Strong,450.0,High,High,Low,Good,Touchscreen|Camera|Active Aerodynamics
+312,McLaren Artura,2023,Strong,380.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+313,Porsche 918 Spyder,2015,Strong,1500.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+314,Porsche Boxster,2018,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|Sport Exhaust
+315,Maruti_Suzuki 800,2010,Weak,1.5,Low,Low,High,Poor,Manual Windows
+316,Maruti_Suzuki Zen,2005,Weak,1.8,Low,Low,High,Poor,Power Steering|Air Conditioning
+317,Maruti_Suzuki Esteem,2007,Weak,2.0,Low,Low,Medium,Poor,Power Windows
+318,Maruti_Suzuki Gypsy,2018,Weak,6.0,Low,Low,Low,Poor,4WD
+319,Maruti_Suzuki Omni,2019,Weak,3.5,Low,Low,High,Poor,Manual Windows
+320,Maruti_Suzuki Eeco,2023,Weak,5.5,Low,Low,Medium,Poor,Air Conditioning|Dual AC
+321,Maruti_Suzuki Versa,2008,Weak,2.5,Low,Low,Medium,Poor,Dual AC
+322,Maruti_Suzuki Kizashi,2012,Moderate,8.0,Medium,Medium,Medium,Good,Bluetooth|Push Button Start
+323,Maruti_Suzuki Ritz,2015,Weak,4.0,Low,Low,High,Poor,Air Conditioning|Power Windows
+324,Maruti_Suzuki A-Star,2012,Weak,3.0,Low,Low,High,Poor,Air Conditioning
+325,Maruti_Suzuki Splash,2013,Weak,3.5,Low,Low,High,Poor,Air Conditioning
+326,Hyundai Getz,2009,Weak,2.5,Low,Low,High,Poor,Power Windows
+327,Hyundai Terracan,2006,Moderate,6.0,Medium,Low,Medium,Poor,4WD|Air Conditioning
+328,Hyundai Xcent,2018,Weak,6.5,Low,Medium,High,Good,Touchscreen|Camera|Bluetooth
+329,Hyundai Matrix,2008,Weak,3.0,Low,Low,High,Poor,Air Conditioning
+330,Hyundai Accent,2013,Weak,3.5,Low,Low,Medium,Poor,Power Windows
+331,Honda Civic Hybrid,2009,Moderate,8.0,Medium,Medium,High,Good,Air Conditioning|Hybrid System
+332,Honda Accord V6,2010,Strong,10.0,High,Medium,Medium,Good,Bluetooth|Sunroof
+333,Honda Prelude,2001,Moderate,6.0,High,Low,Medium,Poor,Power Windows|Sunroof
+334,Toyota Qualis,2004,Weak,4.0,Low,Low,Medium,Poor,Air Conditioning|Dual AC
+335,Toyota Prius,2019,Moderate,35.0,Medium,High,High,Recommended,Touchscreen|Camera|Hybrid System
+336,Toyota Land Cruiser Prado,2018,Strong,90.0,High,High,Low,Good,Touchscreen|Camera|4WD
+337,Toyota Crown,2023,Strong,65.0,High,High,Medium,Good,Touchscreen|Camera|ADAS
+338,Toyota Yaris Cross,2024,Moderate,18.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS
+339,Toyota Rumion,2023,Moderate,11.5,Low,Medium,Medium,Good,Touchscreen|Camera|SmartPlay Pro
+340,Mahindra e2o,2016,Weak,5.0,Low,Low,High,Poor,Touchscreen|EV Tech
+341,Mahindra e2oPlus,2018,Weak,6.5,Low,Low,High,Poor,Touchscreen|EV Tech
+342,Mahindra Reva i,2010,Weak,2.0,Low,Low,High,Poor,Air Conditioning|EV Tech
+343,Mahindra Verito Vibe,2015,Weak,4.5,Low,Low,Medium,Poor,Power Windows
+344,Mahindra Nuvosport,2017,Moderate,7.0,Medium,Low,Medium,Poor,Touchscreen|Bluetooth
+345,Mahindra Logan,2011,Weak,3.0,Low,Low,Medium,Poor,Air Conditioning
+346,Mahindra Armada,1999,Weak,2.0,Low,Low,Medium,Poor,4WD
+347,Mahindra Commander,1997,Weak,1.5,Low,Low,Medium,Poor,Manual Windows
+348,Mahindra Marshal,2001,Weak,1.8,Low,Low,Medium,Poor,Manual Windows
+349,Mahindra XUV900,2025,Strong,32.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Coupe Roof
+350,Tata Sierra,2000,Weak,3.0,Medium,Low,Medium,Poor,4WD|Air Conditioning
+351,Tata Estate,1998,Weak,2.0,Low,Low,Medium,Poor,Power Windows
+352,Tata Spacio,2004,Weak,2.5,Low,Low,Medium,Poor,Air Conditioning
+353,Tata Winger,2021,Moderate,15.0,Medium,Low,Medium,Poor,Dual AC|Rear AC
+354,Tata Venture,2014,Weak,4.0,Low,Low,Medium,Poor,Dual AC
+355,Tata Bolt,2018,Weak,5.0,Low,Medium,High,Good,Touchscreen|Bluetooth
+356,Tata Zest,2019,Weak,6.0,Low,Medium,High,Good,Touchscreen|Bluetooth
+357,Tata Manza,2015,Weak,4.5,Low,Low,Medium,Poor,Bluetooth|Alloy Wheels
+358,Tata Vista,2014,Weak,3.5,Low,Low,High,Poor,Bluetooth
+359,Tata Curvv,2024,Moderate,15.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS
+360,Skoda Superb Combi,2014,Moderate,15.0,High,High,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+361,Skoda Praktik,2012,Weak,6.0,Medium,Low,Medium,Poor,Bluetooth
+362,Skoda Roomster,2013,Moderate,8.0,Medium,Medium,Medium,Good,Touchscreen|Panoramic Sunroof
+363,Skoda Enyaq iV,2024,Strong,55.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+364,Volkswagen Beetle,2016,Moderate,25.0,High,Medium,Medium,Good,Touchscreen|Camera|Fender Audio
+365,Volkswagen Phaeton,2012,Strong,35.0,High,Medium,Low,Poor,Touchscreen|Camera|Air Suspension
+366,Volkswagen Cross Polo,2015,Moderate,8.0,Medium,Medium,Medium,Good,Touchscreen|Bluetooth
+367,Volkswagen GTI,2017,Moderate,22.0,High,High,Medium,Good,Touchscreen|Camera|LED Headlamps
+368,Volkswagen ID.4,2024,Strong,45.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+369,Audi A3,2021,Moderate,32.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+370,Audi A5,2022,Strong,68.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+371,Audi A7,2020,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|Air Suspension
+372,Audi TT,2018,Strong,65.0,High,High,Low,Good,Touchscreen|Camera|Virtual Cockpit
+373,Audi R8 Spyder,2019,Strong,290.0,High,Low,Low,Poor,Touchscreen|Camera|Virtual Cockpit
+374,Audi Q2,2022,Moderate,35.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+375,BMW 1_Series,2017,Moderate,25.0,High,Medium,Medium,Good,Touchscreen|Bluetooth|Sunroof
+376,BMW 2_Series_Gran_Coupe,2023,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|ADAS
+377,BMW 6_Series_GT,2022,Strong,75.0,High,High,Low,Good,Touchscreen|Camera|Air Suspension
+378,BMW 8_Series,2023,Strong,160.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Laser Lights
+379,BMW X2,2020,Moderate,42.0,High,High,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+380,BMW X4,2022,Moderate,72.0,High,High,Medium,Good,Touchscreen|Camera|ADAS
+381,BMW X6,2023,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Illuminated Kidney Grille
+382,BMW Z3,2002,Moderate,15.0,High,Low,Low,Poor,Air Conditioning|Convertible Top
+383,Mercedes-Benz A-Class,2023,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|MBUX
+384,Mercedes-Benz B-Class,2018,Moderate,30.0,High,Medium,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+385,Mercedes-Benz CLS,2021,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|Burmester Audio
+386,Mercedes-Benz SLK,2015,Moderate,40.0,High,Medium,Low,Poor,Touchscreen|Bluetooth|Magic Sky Control
+387,Mercedes-Benz SLC,2018,Strong,65.0,High,High,Low,Good,Touchscreen|Camera|Convertible Top
+388,Mercedes-Benz AMG_GT_4-Door,2022,Strong,210.0,High,High,Low,Good,Touchscreen|Camera|Burmester Audio
+389,Mercedes-Benz V-Class,2021,Moderate,75.0,High,High,Medium,Good,Touchscreen|Camera|Captain Seats
+390,Mercedes-Benz R-Class,2014,Strong,45.0,High,Medium,Medium,Poor,Touchscreen|Camera|Panoramic Sunroof
+391,Mercedes-Benz GLK,2013,Moderate,35.0,High,Medium,Medium,Poor,Bluetooth|AWD
+392,Volvo V40,2019,Moderate,30.0,High,High,Medium,Good,Touchscreen|Camera|City Safety
+393,Volvo V60,2021,Moderate,45.0,High,High,Medium,Good,Touchscreen|Camera|Pilot Assist
+394,Volvo S80,2015,Strong,35.0,High,High,Low,Good,Touchscreen|Camera|BLIS
+395,Volvo C30,2012,Moderate,20.0,High,Medium,Medium,Poor,Bluetooth|City Safety
+396,Jaguar XK,2014,Strong,65.0,High,Medium,Low,Poor,Touchscreen|Bluetooth|V8
+397,Jaguar S-Type,2008,Strong,20.0,High,Low,Low,Poor,Air Conditioning|Wood Trim
+398,Jaguar X-Type,2009,Moderate,18.0,High,Low,Medium,Poor,Bluetooth|AWD
+399,Land_Rover Freelander,2012,Moderate,18.0,High,Medium,Medium,Good,Touchscreen|Terrain Response
+400,Nissan 370Z,2018,Strong,65.0,High,Medium,Low,Good,Touchscreen|Camera|V6
+401,Nissan GT-R,2022,Strong,215.0,High,High,Low,Good,Touchscreen|Camera|AWD|Titanium Exhaust
+402,Nissan Juke,2020,Moderate,25.0,Medium,High,Medium,Good,Touchscreen|Camera|Bose Audio
+403,Nissan Patrol,2023,Strong,180.0,High,High,Low,Good,Touchscreen|Camera|ADAS|4WD
+404,Ford Fusion,2010,Moderate,3.5,Medium,Low,Medium,Poor,Air Conditioning|Power Windows
+405,Ford Classic,2014,Weak,4.0,Low,Medium,Medium,Good,Bluetooth|Alloy Wheels
+406,Ford B-Max,2015,Moderate,6.0,Medium,Medium,Medium,Good,Touchscreen|Bluetooth
+407,Ford Mustang_Mach-E,2024,Strong,75.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+408,Chevrolet SRV,2008,Moderate,3.0,Medium,Low,Medium,Poor,Air Conditioning|Power Windows
+409,Chevrolet Forester,2005,Moderate,4.0,Medium,Low,Medium,Poor,AWD|Air Conditioning
+410,Chevrolet U-VA,2010,Weak,2.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+411,Kia Carens EV,2025,Moderate,25.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+412,Kia Clavis,2025,Moderate,14.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS
+413,Hyundai Verna_N-Line,2024,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Sport Exhaust
+414,Hyundai Creta_N-Line,2024,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Dashcam
+415,Hyundai Inster,2025,Weak,11.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+416,Tata Sierra_EV,2025,Moderate,28.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+417,Tata Harrier_EV,2024,Strong,32.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+418,Tata Altroz_Racer,2024,Moderate,11.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+419,Mahindra Thar_Roxx,2024,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Panoramic Sunroof
+420,Mahindra BE.05,2025,Strong,25.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+421,Mahindra XUV.e8,2024,Strong,35.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+422,Maruti_Suzuki eVX,2025,Moderate,22.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+423,Maruti_Suzuki Dzire_2024,2024,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|Sunroof
+424,Maruti_Suzuki Swift_2024,2024,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Wireless Charging
+425,Toyota Belta,2022,Moderate,11.0,Low,High,Medium,Recommended,Touchscreen|Camera|SmartPlay Pro
+426,Toyota Taisor,2024,Weak,10.5,Low,Low,High,Good,Touchscreen|Camera|HUD
+427,MG Windsor_EV,2024,Moderate,15.0,Low,High,High,Recommended,Touchscreen|Camera|Panoramic Glassroof|EV Tech
+428,MG Cyberster,2025,Strong,65.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Scissor Doors|EV Tech
+429,MG Hector_EV,2025,Moderate,28.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+430,Skoda Kylaq,2025,Moderate,12.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+431,Volkswagen Tayron,2025,Strong,38.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|AWD
+432,Nissan X-Trail_Hybrid,2024,Moderate,35.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|e-Power
+433,Jeep Avenger,2025,Moderate,25.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+434,Renault Duster_2025,2025,Moderate,15.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|AWD
+435,Renault Kwid_EV,2025,Weak,8.0,Low,Medium,High,Good,Touchscreen|Camera|EV Tech
+436,Honda Amaze_2024,2024,Weak,10.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS
+437,Honda Elevate_EV,2026,Moderate,22.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+438,Citroen C3_Aircross_EV,2025,Moderate,16.0,Low,Medium,High,Good,Touchscreen|Camera|EV Tech
+439,BYD M6,2025,Moderate,30.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|Blade Battery
+440,BYD Bao_5,2025,Strong,55.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|PHEV Tech
+441,Fisker Ocean,2024,Strong,80.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Solar Roof
+442,Tesla Model_3_India,2025,Strong,45.0,Low,High,High,Recommended,Touchscreen|Camera|Autopilot|EV Tech
+443,Tesla Model_Y_India,2025,Strong,55.0,Low,High,High,Recommended,Touchscreen|Camera|Autopilot|EV Tech
+444,Lotus Eletre,2024,Strong,250.0,High,High,High,Good,Touchscreen|Camera|ADAS|LIDAR|EV Tech
+445,Lotus Emira,2023,Strong,180.0,High,High,Low,Good,Touchscreen|Camera|V6
+446,Polestar 2,2024,Strong,60.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+447,Polestar 3,2025,Strong,90.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+448,Mini Aceman,2025,Moderate,45.0,Medium,High,High,Recommended,Touchscreen|Camera|HUD|EV Tech
+449,Lexus LM,2024,Strong,250.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Rear Theater Screen
+450,Lexus RZ,2024,Strong,85.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+451,Mercedes-Benz CLE,2024,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|ADAS|MBUX
+452,Mercedes-Benz EQA,2024,Moderate,65.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+453,BMW i7,2023,Strong,200.0,High,High,High,Good,Touchscreen|Camera|ADAS|Theater Screen|EV Tech
+454,BMW i5,2024,Strong,120.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Curved Display|EV Tech
+455,Audi Q6_e-tron,2025,Strong,85.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|OLED Taillights|EV Tech
+456,Audi A6_e-tron,2025,Strong,90.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+457,Porsche Macan_EV,2024,Strong,125.0,High,High,High,Good,Touchscreen|Camera|ADAS|800V Architecture|EV Tech
+458,Volvo EX90,2025,Strong,110.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|LIDAR|EV Tech
+459,Land_Rover Range_Rover_EV,2025,Strong,300.0,High,High,High,Good,Touchscreen|Camera|ADAS|EV Tech
+460,Jaguar F-Type,2023,Strong,100.0,High,High,Low,Good,Touchscreen|Camera|V8|Active Exhaust
+461,Aston_Martin Valhalla,2024,Strong,800.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+462,Ferrari Purosangue_V8,2025,Strong,850.0,High,High,Low,Good,Touchscreen|Camera|AWD
+463,Lamborghini Temerario,2025,Strong,600.0,High,High,Low,Good,Touchscreen|Camera|PHEV Tech
+464,Maserati GranTurismo,2024,Strong,220.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Nettuno V6
+465,McLaren 750S,2024,Strong,500.0,High,High,Low,Good,Touchscreen|Camera|Carbon Fiber
+466,Bugatti Tourbillon,2026,Strong,3500.0,High,High,Low,Good,Touchscreen|Camera|V16 Hybrid
+467,Pagani Huayra,2020,Strong,2800.0,High,High,Low,Good,Touchscreen|Camera|Carbotanium Chassis
+468,Koenigsegg Jesko,2022,Strong,3200.0,High,High,Low,Good,Touchscreen|Camera|V8
+469,Maybach S-Class,2023,Strong,280.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Executive Seats
+470,Maybach GLS,2023,Strong,320.0,High,High,Low,Good,Touchscreen|Camera|ADAS|E-Active Body Control
+471,Maybach EQS_SUV,2024,Strong,350.0,High,High,High,Good,Touchscreen|Camera|ADAS|EV Tech
+472,Alpine A110,2022,Strong,90.0,High,High,Low,Good,Touchscreen|Camera|Sport Exhaust
+473,Alfa_Romeo Giulia,2021,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|ADAS
+474,Alfa_Romeo Stelvio,2022,Strong,95.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|AWD
+475,Fiat 500e,2024,Weak,35.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+476,Peugeot 3008,2024,Moderate,35.0,Medium,High,Medium,Good,Touchscreen|Camera|ADAS
+477,Peugeot 5008,2024,Moderate,42.0,Medium,High,Medium,Good,Touchscreen|Camera|ADAS
+478,Ford Bronco_India,2025,Strong,85.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS|Off-Road Mapping
+479,Ford Ranger_India,2025,Strong,65.0,Medium,High,Medium,Good,Touchscreen|Camera|ADAS|4WD
+480,Chevrolet Silverado_India,2025,Strong,90.0,High,High,Low,Good,Touchscreen|Camera|ADAS|4WD
+481,RAM 1500_India,2025,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|ADAS|4WD
+482,Pravaig Defy,2024,Strong,40.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+483,Vazirani Shul,2025,Strong,350.0,High,High,Low,Good,Touchscreen|Camera|Turbine Electric
+484,Mean_Metal_Motors Azani,2025,Strong,120.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+485,Tata Nano_EV,2026,Weak,5.0,Low,High,High,Recommended,Touchscreen|Bluetooth|EV Tech
+486,Maruti_Suzuki WagonR_EV,2025,Weak,8.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+487,Hyundai Casper_EV,2025,Weak,10.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+488,Kia Picanto,2024,Weak,7.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS
+489,Honda N-Box,2024,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Honda Sensing
+490,Suzuki Spacia,2024,Weak,9.0,Low,High,High,Recommended,Touchscreen|Camera|Suzuki Safety Support
+491,Toyota Roomy,2024,Weak,10.0,Low,High,High,Recommended,Touchscreen|Camera|Smart Assist
+492,Daihatsu Tanto,2024,Weak,8.0,Low,High,High,Recommended,Touchscreen|Camera|Smart Assist
+493,Mazda MX-30_EV,2024,Moderate,35.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+494,Subaru Solterra_India,2025,Moderate,45.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Tech
+495,Mitsubishi Xforce,2025,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Yamaha Audio
+496,Isuzu D-Max_EV,2026,Moderate,35.0,Medium,High,High,Recommended,Touchscreen|Camera|EV Tech|4WD
+497,Force Gurkha_5-Door,2024,Moderate,18.0,Medium,Medium,Medium,Good,Touchscreen|Camera|4WD
+498,Mahindra Scorpio_Classic,2023,Moderate,14.0,Low,Medium,Medium,Good,Touchscreen|Projector Headlamps
+499,Tata Safari_Storme,2019,Moderate,12.0,Medium,Medium,Medium,Good,Bluetooth|Projector Headlamps
+500,Maruti_Suzuki Vitara_Brezza,2020,Moderate,9.5,Low,High,Medium,Recommended,Touchscreen|Camera|SmartPlay
+501,Maruti_Suzuki Alto 800 CNG,2022,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+502,Maruti_Suzuki WagonR CNG,2023,Weak,8.0,Low,Low,High,Poor,Bluetooth|Power Windows
+503,Maruti_Suzuki Celerio CNG,2023,Weak,7.5,Low,Low,High,Poor,Bluetooth|Keyless Entry
+504,Maruti_Suzuki Swift CNG,2023,Weak,9.0,Low,Low,High,Poor,Touchscreen|Camera
+505,Maruti_Suzuki Dzire CNG,2023,Weak,9.5,Low,Low,High,Poor,Touchscreen|Camera
+506,Maruti_Suzuki Ertiga CNG,2023,Moderate,12.5,Low,Medium,High,Good,Touchscreen|Camera|SmartPlay Pro
+507,Maruti_Suzuki Eeco CNG,2023,Weak,6.5,Low,Low,High,Poor,Air Conditioning
+508,Maruti_Suzuki S-Presso CNG,2023,Weak,6.0,Low,Low,High,Poor,Touchscreen|Bluetooth
+509,Maruti_Suzuki Grand Vitara CNG,2023,Moderate,16.5,Low,High,High,Recommended,Touchscreen|Camera|Panoramic Sunroof
+510,Maruti_Suzuki Brezza CNG,2023,Moderate,13.5,Low,High,High,Recommended,Touchscreen|Camera|HUD
+511,Maruti_Suzuki Fronx CNG,2023,Weak,11.5,Low,Low,High,Poor,Touchscreen|Camera|Wireless Charging
+512,Maruti_Suzuki XL6 CNG,2023,Moderate,14.0,Low,Medium,High,Good,Touchscreen|Camera|Ventilated Seats
+513,Maruti_Suzuki Baleno CNG,2023,Weak,10.5,Low,Low,High,Poor,Touchscreen|Camera|HUD
+514,Maruti_Suzuki Tour H1,2022,Weak,4.0,Low,Low,High,Poor,Manual Windows|Speed Limiter
+515,Maruti_Suzuki Tour H3,2022,Weak,6.5,Low,Low,High,Poor,Air Conditioning|Speed Limiter
+516,Maruti_Suzuki Tour M,2022,Moderate,10.5,Low,Medium,Medium,Good,Air Conditioning|Speed Limiter
+517,Maruti_Suzuki Tour S,2022,Weak,7.5,Low,Low,High,Poor,Air Conditioning|Speed Limiter
+518,Maruti_Suzuki Tour V,2022,Weak,5.5,Low,Low,High,Poor,Air Conditioning|Speed Limiter
+519,Maruti_Suzuki Super Carry,2023,Weak,5.0,Low,Low,Medium,Poor,Manual Windows
+520,Maruti_Suzuki Eeco Cargo,2023,Weak,5.5,Low,Low,Medium,Poor,Air Conditioning
+521,Hyundai Grand i10 Nios CNG,2023,Weak,8.5,Low,Low,High,Poor,Touchscreen|Camera
+522,Hyundai Aura CNG,2023,Weak,9.5,Low,Low,High,Poor,Touchscreen|Camera
+523,Hyundai Exter CNG,2023,Weak,9.0,Low,Low,High,Poor,Touchscreen|Camera|Dashcam
+524,Hyundai Santro CNG,2021,Weak,6.5,Low,Low,High,Poor,Bluetooth|Rear AC
+525,Hyundai Venue N-Line N8,2023,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Sport Exhaust|Dashcam
+526,Hyundai i20 N-Line N8,2023,Moderate,13.0,Low,Medium,Medium,Good,Touchscreen|Camera|Sport Exhaust|Bose Audio
+527,Hyundai Creta N-Line N10,2024,Moderate,22.0,Medium,Medium,Medium,Good,Touchscreen|Camera|ADAS|Sport Exhaust
+528,Hyundai Verna SX(O),2023,Moderate,18.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Heated Seats
+529,Hyundai Alcazar Signature(O),2023,Moderate,23.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Ventilated Seats|BlueLink
+530,Hyundai Tucson Signature,2023,Moderate,37.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|AWD
+531,Hyundai Ioniq 5 AWD,2024,Strong,52.0,Low,High,High,Recommended,Touchscreen|Camera|ADAS|V2L
+532,Hyundai Kona Electric,2022,Moderate,24.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+533,Hyundai Santa Fe 4WD,2017,Moderate,22.0,High,High,Medium,Recommended,Touchscreen|Camera|AWD
+534,Hyundai Terracan CRDi,2007,Moderate,5.0,High,Low,Medium,Poor,Air Conditioning|4WD
+535,Hyundai Getz CRDi,2008,Weak,3.5,Low,Low,High,Poor,Power Windows|Power Steering
+536,Hyundai Accent Viva,2006,Weak,2.5,Low,Low,Medium,Poor,Air Conditioning|Alloy Wheels
+537,Hyundai Sonata Embera,2007,Moderate,4.5,Medium,Medium,Medium,Good,Air Conditioning|Leather Seats
+538,Hyundai Sonata Transform,2010,Moderate,6.0,Medium,High,Medium,Recommended,Air Conditioning|Power Seats
+539,Hyundai Elantra Fluidic,2015,Moderate,12.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+540,Hyundai Eon D-Lite,2017,Weak,2.8,Low,Low,High,Poor,Air Conditioning
+541,Tata Nexon EV Max,2023,Moderate,20.0,Low,High,High,Recommended,Touchscreen|Camera|EV Tech|Regen Braking
+542,Tata Nexon EV Prime,2023,Moderate,17.5,Low,High,High,Recommended,Touchscreen|Camera|EV Tech
+543,Tata Tiago NRG CNG,2023,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Rugged Cladding
+544,Tata Tigor CNG,2023,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|Digital Cluster
+545,Tata Punch CNG,2023,Weak,10.0,Low,High,High,Recommended,Touchscreen|Camera|Voice Command
+546,Tata Altroz CNG,2023,Weak,11.0,Low,High,High,Recommended,Touchscreen|Camera|Voice Sunroof
+547,Tata Harrier Camo,2022,Moderate,23.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS
+548,Tata Safari #Dark,2023,Moderate,26.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|ADAS
+549,Tata Safari Adventure,2023,Moderate,26.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS
+550,Tata Safari Kaziranga,2022,Moderate,25.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+551,Tata Harrier Kaziranga,2022,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Air Purifier
+552,Tata Punch Kaziranga,2022,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Connected Tech
+553,Tata Nexon Kaziranga,2022,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+554,Tata Tiago JTP,2019,Moderate,6.5,Medium,High,Medium,Recommended,Touchscreen|Bluetooth|Sport Exhaust
+555,Tata Tigor JTP,2019,Moderate,7.5,Medium,High,Medium,Recommended,Touchscreen|Bluetooth|Sport Exhaust
+556,Tata Hexa XT 4x4,2019,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD
+557,Tata Aria Pride,2014,Moderate,9.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Projector Headlamps
+558,Tata Safari Dicor,2012,Moderate,6.5,High,Low,Medium,Poor,Air Conditioning|4WD
+559,Tata Safari Storme VX,2018,Moderate,13.0,Medium,Medium,Medium,Good,Bluetooth|Projector Headlamps
+560,Tata Sumo Grande,2014,Weak,5.5,Low,Low,Medium,Poor,Air Conditioning|Dual AC
+561,Mahindra Scorpio S11,2023,Moderate,19.5,Medium,Medium,Medium,Good,Touchscreen|Camera|Connected Tech
+562,Mahindra Scorpio Classic S,2023,Moderate,15.5,Low,Medium,Medium,Good,Bluetooth|Projector Headlamps
+563,Mahindra Thar LX 4x4,2023,Moderate,18.5,Medium,High,Medium,Recommended,Touchscreen|4WD|Off-Road Telematics
+564,Mahindra Thar AX Opt,2023,Moderate,15.0,Medium,High,Medium,Recommended,Bluetooth|4WD
+565,Mahindra XUV700 AX5,2023,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+566,Mahindra XUV700 AX3,2023,Moderate,19.0,Medium,High,Medium,Recommended,Touchscreen|Digital Cluster
+567,Mahindra XUV300 W8,2023,Moderate,14.0,Low,High,Medium,Recommended,Touchscreen|Camera|Dual-Zone AC
+568,Mahindra Bolero B6,2023,Weak,11.5,Low,Low,High,Poor,Bluetooth|Micro-Hybrid Tech
+569,Mahindra Bolero Neo N10,2023,Weak,13.5,Low,Medium,High,Good,Touchscreen|Camera|Micro-Hybrid Tech
+570,Mahindra Marazzo M6,2021,Moderate,15.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Roof AC
+571,Mahindra Alturas G4 4WD,2021,Moderate,31.0,High,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|4WD
+572,Mahindra KUV100 NXT,2020,Weak,7.5,Low,Low,High,Poor,Touchscreen|Bluetooth|Joystick Gear
+573,Mahindra TUV300 T10,2019,Weak,11.0,Low,Medium,High,Good,Touchscreen|Camera|Steering Controls
+574,Mahindra Xylo E8,2016,Moderate,8.0,Medium,Low,Medium,Poor,Bluetooth|Dual AC
+575,Mahindra Quanto C8,2015,Weak,5.0,Low,Low,High,Poor,Air Conditioning|Micro-Hybrid Tech
+576,Mahindra Verito Executive,2016,Weak,5.5,Low,Low,Medium,Poor,Bluetooth|Alloy Wheels
+577,Mahindra NuvoSport N8,2017,Moderate,8.5,Medium,Low,Medium,Poor,Touchscreen|Bluetooth|Cruise Control
+578,Mahindra E-Verito D6,2019,Weak,10.0,Low,Low,High,Poor,Touchscreen|EV Tech
+579,Mahindra Reva NXR,2012,Weak,3.5,Low,Low,High,Poor,Air Conditioning|EV Tech
+580,Mahindra e2o Plus P8,2018,Weak,7.5,Low,Low,High,Poor,Touchscreen|EV Tech
+581,Honda City 4th Gen,2022,Moderate,12.0,Low,Medium,Medium,Good,Touchscreen|Camera|Bluetooth
+582,Honda City 5th Gen,2023,Moderate,15.5,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|LaneWatch
+583,Honda Amaze VX,2023,Weak,11.0,Low,High,High,Recommended,Touchscreen|Camera|Cruise Control
+584,Honda Jazz ZX,2021,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Magic Seats|Sunroof
+585,Honda WR-V VX,2022,Weak,12.5,Low,High,High,Recommended,Touchscreen|Camera|Sunroof
+586,Honda BR-V V,2019,Moderate,11.5,Low,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+587,Honda CR-V 4WD,2019,Moderate,32.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|LaneWatch
+588,Honda Civic ZX,2020,Moderate,23.0,Medium,High,Medium,Recommended,Touchscreen|Camera|LaneWatch|Digital Display
+589,Honda Accord Hybrid,2019,Moderate,42.0,Medium,High,High,Recommended,Touchscreen|Camera|Hybrid System|LaneWatch
+590,Honda Brio VX,2018,Weak,6.5,Low,Medium,High,Good,Touchscreen|Steering Controls
+591,Toyota Innova Crysta Touring Sport,2019,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Tech
+592,Toyota Innova Hycross ZX(O),2023,Moderate,35.0,Medium,Low,High,Poor,Touchscreen|Camera|ADAS|Strong Hybrid
+593,Toyota Fortuner GR-S,2023,Moderate,52.0,Medium,High,Medium,Recommended,Touchscreen|Camera|GR Sport Tuning|4WD
+594,Toyota Fortuner Legender 4x4,2023,Moderate,50.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Connected Tech|4WD
+595,Toyota Hilux High,2023,Moderate,40.0,Medium,High,Medium,Recommended,Touchscreen|Camera|4WD|A-TRAC
+596,Toyota Camry Hybrid,2023,Moderate,50.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Hybrid System
+597,Toyota Vellfire Executive Lounge,2023,Moderate,130.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Massaging Seats
+598,Toyota Land Cruiser 300 ZX,2023,Strong,230.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Multi-Terrain Monitor
+599,Toyota Yaris J,2020,Moderate,9.5,Low,High,Medium,Recommended,Bluetooth|7 Airbags
+600,Toyota Etios Cross VD,2017,Weak,7.5,Low,High,High,Recommended,Touchscreen|Bluetooth|Rugged Cladding
+601,Kia Seltos GT Line,2023,Moderate,22.0,Medium,Medium,Medium,Good,Touchscreen|Camera|ADAS|HUD
+602,Kia Seltos X-Line,2023,Moderate,23.5,Medium,Medium,Medium,Good,Touchscreen|Camera|ADAS|Matte Paint
+603,Kia Sonet GT Line,2023,Moderate,15.5,Low,Medium,Medium,Good,Touchscreen|Camera|Ventilated Seats
+604,Kia Sonet X-Line,2023,Moderate,16.5,Low,Medium,Medium,Good,Touchscreen|Camera|Matte Paint
+605,Kia Carens Luxury Plus,2023,Moderate,20.0,Low,Medium,Medium,Good,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+606,Kia Carnival Limousine Plus,2022,Moderate,38.0,Medium,High,Medium,Recommended,Touchscreen|Camera|VIP Seats|Rear Entertainment
+607,Kia EV6 GT-Line AWD,2023,Strong,70.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|AR HUD|V2L
+608,MG Hector Sharp Pro,2023,Moderate,24.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|14-inch Display
+609,MG Hector Plus Savvy Pro,2023,Moderate,26.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|Panoramic Sunroof
+610,MG Astor Savvy,2023,Moderate,19.5,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|AI Assistant
+611,MG ZS EV Exclusive,2023,Moderate,28.0,Low,High,High,Recommended,Touchscreen|Camera|Panoramic Sunroof|EV Tech
+612,MG Comet EV Plush,2023,Weak,11.0,Low,Low,High,Poor,Touchscreen|Camera|Digital Cluster|EV Tech
+613,MG Gloster Savvy 4x4,2023,Moderate,46.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Massaging Seats|4WD
+614,MG Hector Shine,2023,Moderate,19.0,Medium,Low,Medium,Poor,Touchscreen|Camera|Panoramic Sunroof
+615,MG Astor Smart,2023,Moderate,16.5,Medium,Low,Medium,Poor,Touchscreen|Camera|Connected Tech
+616,MG Gloster Blackstorm,2023,Moderate,45.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Black Accents
+617,Kia Seltos HTX+,2023,Moderate,20.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+618,Kia Sonet HTX+,2023,Moderate,14.5,Low,Medium,Medium,Good,Touchscreen|Camera|Ventilated Seats
+619,Kia Carens Premium,2023,Moderate,13.0,Low,Medium,Medium,Good,Digital Cluster|6 Airbags
+620,Kia EV9 GT-Line,2024,Strong,140.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Swivel Seats
+621,Skoda Slavia Style,2023,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+622,Skoda Kushaq Monte Carlo,2023,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|Sport Accents
+623,Skoda Octavia L&K,2022,Moderate,34.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Canton Audio|Virtual Cockpit
+624,Skoda Superb Sportline,2023,Moderate,38.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Matrix LED|Sport Seats
+625,Skoda Kodiaq L&K,2023,Moderate,44.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|DCC
+626,Skoda Kodiaq Scout,2021,Moderate,39.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|Off-Road Mode
+627,Skoda Rapid Monte Carlo,2021,Moderate,14.0,Low,High,Medium,Recommended,Touchscreen|Camera|Sport Accents
+628,Skoda Fabia Scout,2014,Weak,6.5,Medium,High,High,Recommended,Bluetooth|Projector Headlamps|Rugged Cladding
+629,Skoda Yeti Elegance,2016,Moderate,14.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|Panoramic Sunroof
+630,Volkswagen Virtus GT Plus,2023,Moderate,22.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+631,Volkswagen Taigun GT Plus,2023,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Connected Tech
+632,Volkswagen Tiguan Elegance,2023,Moderate,38.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Matrix LED|AWD
+633,Volkswagen T-Roc TSI,2021,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+634,Volkswagen Passat Highline,2020,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Park Assist
+635,Volkswagen Jetta Highline,2017,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+636,Volkswagen Polo GT TDI,2020,Moderate,12.0,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+637,Volkswagen Vento Highline Plus,2021,Moderate,14.5,Low,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+638,Volkswagen Ameo Highline,2019,Moderate,9.5,Low,Medium,Medium,Good,Touchscreen|Camera|Bluetooth
+639,Volkswagen Touareg V6,2016,Moderate,35.0,High,High,Medium,Good,Touchscreen|Camera|AWD|Air Suspension
+640,Volkswagen Phaeton W12,2012,Strong,45.0,High,Medium,Low,Poor,Touchscreen|Camera|Air Suspension
+641,Ford EcoSport S,2021,Moderate,12.5,Low,High,Medium,Recommended,Touchscreen|Camera|SYNC 3|Sunroof
+642,Ford EcoSport Titanium+,2021,Moderate,11.5,Low,High,Medium,Recommended,Touchscreen|Camera|SYNC 3
+643,Ford Endeavour Sport,2021,Moderate,42.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Terrain Management|Panoramic Sunroof
+644,Ford Endeavour Titanium+,2021,Moderate,40.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Terrain Management
+645,Ford Figo Titanium,2020,Weak,7.5,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+646,Ford Aspire Titanium,2021,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Bluetooth
+647,Ford Freestyle Flair,2020,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|ARP
+648,Ford Mustang GT,2019,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|Track Apps|Line Lock
+649,Ford Fiesta Classic,2015,Moderate,5.0,Low,High,Medium,Recommended,Bluetooth|Voice Control
+650,Ford Ikon Flair,2010,Weak,2.0,Low,Low,High,Poor,Power Steering|Power Windows
+651,Chevrolet Cruze LTZ,2017,Moderate,8.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Bluetooth
+652,Chevrolet Beat LT,2016,Weak,3.5,Low,High,High,Recommended,Bluetooth|Digital Tachometer
+653,Chevrolet Spark LT,2015,Weak,2.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+654,Chevrolet Sail U-VA,2016,Weak,4.0,Low,High,High,Recommended,Bluetooth|Power Windows
+655,Chevrolet Enjoy LTZ,2016,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Rear AC
+656,Chevrolet Captiva LTZ,2015,Moderate,8.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD
+657,Chevrolet Trailblazer LTZ,2016,Moderate,15.0,Medium,High,Medium,Recommended,Touchscreen|Camera|MyLink
+658,Chevrolet Optra Magnum,2012,Moderate,3.5,Low,Low,Medium,Poor,Air Conditioning|Power Windows
+659,Chevrolet Aveo U-VA,2011,Weak,2.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+660,Chevrolet Tavera Neo,2015,Weak,6.0,Low,Low,High,Poor,Air Conditioning|Power Steering
+661,Nissan Magnite XV Premium,2023,Weak,12.5,Low,High,High,Recommended,Touchscreen|Camera|360 Camera|Wireless CarPlay
+662,Nissan Kicks XV Pre Option,2022,Moderate,16.0,Low,Low,Medium,Poor,Touchscreen|Camera|360 Camera
+663,Nissan Micra XV,2019,Weak,6.5,Low,Medium,High,Good,Touchscreen|Bluetooth
+664,Nissan Sunny XV,2019,Weak,9.0,Low,High,High,Recommended,Touchscreen|Bluetooth
+665,Nissan Terrano XV,2018,Moderate,9.5,Low,High,Medium,Recommended,Touchscreen|Bluetooth
+666,Nissan X-Trail T30,2010,Moderate,6.5,Medium,Low,Medium,Poor,Air Conditioning|4WD
+667,Renault Kiger RXZ,2023,Weak,12.0,Low,High,High,Recommended,Touchscreen|Camera|Wireless Charging|Digital Cluster
+668,Renault Triber RXZ,2022,Weak,10.0,Low,High,High,Recommended,Touchscreen|Camera|Modular Seating
+669,Renault Duster RXZ AWD,2021,Moderate,14.5,Low,Medium,Medium,Good,Touchscreen|Camera|AWD Option
+670,Renault Captur Platine,2019,Moderate,12.0,Low,Medium,Medium,Good,Touchscreen|Camera|LED Headlamps
+671,Renault Kwid Climber,2023,Weak,7.0,Low,Low,High,Poor,Touchscreen|Camera|Digital Cluster
+672,Renault Lodgy Stepway,2019,Moderate,9.0,Low,Medium,Medium,Good,Touchscreen|Camera|Cruise Control
+673,Jeep Compass Model S,2023,Moderate,32.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Uconnect
+674,Jeep Compass Trailhawk,2022,Moderate,35.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Rock Mode|4WD
+675,Jeep Meridian Limited Plus,2023,Moderate,40.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|Uconnect|AWD
+676,Jeep Meridian Overland,2023,Moderate,42.0,Medium,Low,Medium,Poor,Touchscreen|Camera|ADAS|Uconnect|AWD
+677,Jeep Wrangler Rubicon,2023,Strong,72.0,High,High,Low,Good,Touchscreen|Camera|Off-Road Pages|4WD|Sway Bar Disconnect
+678,Jeep Grand Cherokee Summit,2023,Strong,95.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Passenger Screen
+679,Jeep Cherokee SRT,2020,Strong,115.0,High,High,Low,Good,Touchscreen|Camera|Launch Control|AWD
+680,Jeep Renegade Longitude,2020,Moderate,22.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Uconnect
+681,BMW 330i M Sport,2023,Strong,72.0,High,High,Low,Good,Touchscreen|Camera|ADAS|iDrive 8
+682,BMW M340i,2023,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|ADAS|xDrive
+683,BMW 530d M Sport,2022,Strong,88.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|HUD
+684,BMW 740i M Sport,2023,Strong,185.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Theater Screen
+685,BMW X1 sDrive18i,2023,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Curved Display
+686,BMW X3 xDrive30i,2022,Moderate,75.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Panoramic Sunroof
+687,BMW X5 xDrive40i,2023,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Gesture Control
+688,BMW X7 xDrive40i,2023,Strong,145.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Air Suspension
+689,BMW Z4 M40i,2022,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|ADAS|M Sport Differential
+690,BMW i4 eDrive40,2023,Strong,80.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|EV Routing
+691,Mercedes-Benz C 200,2023,Moderate,65.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|MBUX
+692,Mercedes-Benz E 350d,2023,Strong,88.0,High,High,Low,Good,Touchscreen|Camera|ADAS|MBUX|LWB
+693,Mercedes-Benz S 450,2022,Strong,185.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Massaging Seats
+694,Mercedes-Benz GLA 220d,2022,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|MBUX
+695,Mercedes-Benz GLC 300,2023,Strong,82.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Off-Road Screen
+696,Mercedes-Benz GLE 450,2022,Strong,108.0,High,High,Low,Good,Touchscreen|Camera|ADAS|AR Navigation
+697,Mercedes-Benz GLS 450,2023,Strong,145.0,High,High,Low,Good,Touchscreen|Camera|ADAS|MBUX
+698,Mercedes-Benz G 350d,2022,Strong,265.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Locking Differentials
+699,Mercedes-Benz EQS 580,2022,Strong,175.0,High,High,High,Good,Touchscreen|Camera|ADAS|Hyperscreen|Rear Wheel Steering
+700,Mercedes-Benz EQE 500,2023,Strong,155.0,High,High,High,Good,Touchscreen|Camera|ADAS|Hyperscreen
+701,Audi A4 Technology,2023,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+702,Audi A6 Technology,2022,Moderate,72.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Matrix LED
+703,Audi A8 L W12,2018,Strong,180.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Rear Seat Entertainment
+704,Audi Q3 Technology,2023,Moderate,52.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Quattro
+705,Audi Q5 Technology,2022,Moderate,70.0,High,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit|Quattro
+706,Audi Q7 Technology,2023,Strong,98.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Quattro
+707,Audi Q8 Celebration,2022,Strong,115.0,High,High,Low,Good,Touchscreen|Camera|ADAS|HD Matrix LED
+708,Audi e-tron 55,2022,Strong,135.0,High,High,High,Good,Touchscreen|Camera|ADAS|EV Route Planner
+709,Audi RS5 Sportback,2021,Strong,125.0,High,High,Low,Good,Touchscreen|Camera|Virtual Cockpit|Sport Exhaust
+710,Audi RS e-tron GT,2022,Strong,205.0,High,High,High,Good,Touchscreen|Camera|ADAS|800V Architecture
+711,Volvo XC40 Ultimate,2022,Moderate,52.0,High,High,Medium,Good,Touchscreen|Camera|Pilot Assist|Harman Kardon
+712,Volvo XC60 Ultimate,2023,Strong,75.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Bowers & Wilkins
+713,Volvo XC90 Ultimate,2023,Strong,110.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Air Suspension
+714,Volvo S60 Inscription,2022,Moderate,50.0,High,High,Medium,Good,Touchscreen|Camera|Pilot Assist|Harman Kardon
+715,Volvo S90 Inscription,2023,Strong,75.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Bowers & Wilkins
+716,Volvo C40 Recharge Ultimate,2023,Strong,68.0,Medium,High,High,Recommended,Touchscreen|Camera|Pilot Assist|EV Tech
+717,Volvo V90 Cross Country Pro,2021,Strong,80.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|AWD
+718,Volvo V40 Cross Country,2019,Moderate,35.0,High,High,Medium,Good,Touchscreen|Camera|City Safety
+719,Volvo S80 Inscription,2015,Strong,42.0,High,High,Low,Good,Touchscreen|Camera|BLIS
+720,Volvo XC90 Excellence,2018,Strong,145.0,High,High,Low,Good,Touchscreen|Camera|Pilot Assist|Rear Massaging Seats
+721,Jaguar XE Portfolio,2021,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|Meridian Audio
+722,Jaguar XF Portfolio,2022,Moderate,82.0,High,High,Medium,Good,Touchscreen|Camera|Pivi Pro|Meridian Audio
+723,Jaguar F-Pace R-Dynamic,2023,Moderate,88.0,High,High,Medium,Good,Touchscreen|Camera|Pivi Pro|Meridian Audio
+724,Jaguar F-Type V8,2023,Strong,160.0,High,High,Low,Good,Touchscreen|Camera|V8|Active Exhaust
+725,Jaguar I-Pace HSE,2022,Strong,135.0,Medium,High,High,Recommended,Touchscreen|Camera|Pivi Pro|EV Tech
+726,Land_Rover Range_Rover Autobiography,2023,Strong,310.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+727,Land_Rover Range_Rover_Sport HSE,2023,Strong,195.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Dynamic Air Suspension
+728,Land_Rover Range_Rover_Velar R-Dynamic,2022,Moderate,105.0,High,High,Medium,Good,Touchscreen|Camera|ADAS|Pivi Pro
+729,Land_Rover Range_Rover_Evoque HSE,2023,Moderate,85.0,High,High,Medium,Good,Touchscreen|Camera|ClearSight Ground View
+730,Land_Rover Defender 110,2023,Strong,125.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+731,Land_Rover Defender 90,2023,Strong,115.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+732,Land_Rover Discovery HSE,2022,Strong,118.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Terrain Response 2
+733,Land_Rover Discovery_Sport HSE,2023,Moderate,82.0,High,High,Medium,Good,Touchscreen|Camera|ClearSight Ground View
+734,Porsche Macan S,2023,Strong,105.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect
+735,Porsche Cayenne S,2023,Strong,155.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect|Air Suspension
+736,Porsche Panamera Turbo,2022,Strong,230.0,High,High,Low,Good,Touchscreen|Camera|Porsche Connect|Adaptive Air Suspension
+737,Porsche 911 Carrera S,2023,Strong,215.0,High,Low,Low,Poor,Touchscreen|Camera|Sport Chrono
+738,Porsche Taycan 4S,2023,Strong,185.0,High,High,High,Good,Touchscreen|Camera|ADAS|800V Architecture
+739,Porsche 718 Boxster S,2022,Strong,148.0,High,Low,Low,Poor,Touchscreen|Camera|Sport Chrono|Convertible Top
+740,Porsche 718 Cayman S,2022,Strong,145.0,High,Low,Low,Poor,Touchscreen|Camera|Sport Chrono
+741,Lexus NX 350h F-Sport,2023,Moderate,78.0,High,High,Medium,Good,Touchscreen|Camera|Lexus Safety System+|Adaptive Suspension
+742,Lexus RX 350h Luxury,2023,Moderate,115.0,High,High,Medium,Good,Touchscreen|Camera|Lexus Safety System+|Mark Levinson Audio
+743,Lexus LX 500d F-Sport,2023,Strong,310.0,High,High,Low,Good,Touchscreen|Camera|ADAS|Multi-Terrain Monitor
+744,Mini Cooper S,2023,Moderate,48.0,High,High,Medium,Good,Touchscreen|Camera|HUD
+745,Mini Countryman JCW,2023,Moderate,58.0,High,High,Medium,Good,Touchscreen|Camera|HUD|Sport Suspension
+746,Mini Clubman JCW,2021,Moderate,55.0,High,High,Medium,Good,Touchscreen|Camera|Split Rear Doors|Sport Suspension
+747,BYD Atto 3 Premium,2023,Moderate,36.0,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|Blade Battery
+748,BYD Seal Performance,2024,Strong,65.0,Medium,High,Low,Good,Touchscreen|Camera|ADAS|AWD
+749,BYD e6 Premium,2022,Weak,32.0,Low,High,High,Recommended,Touchscreen|Camera|Blade Battery
+750,Maserati Ghibli Trofeo,2022,Strong,190.0,High,High,Low,Good,Touchscreen|Camera|ADAS|V8
+751,Maruti_Suzuki Swift LXi,2018,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+752,Maruti_Suzuki Swift VXi,2019,Weak,5.5,Low,Low,High,Good,Bluetooth|Power Windows
+753,Maruti_Suzuki Swift ZXi,2020,Weak,6.5,Low,Low,High,Recommended,Touchscreen|Alloy Wheels
+754,Maruti_Suzuki Swift ZXi+,2022,Weak,7.8,Low,Low,High,Recommended,Touchscreen|Camera|LED Headlamps
+755,Maruti_Suzuki Swift VDi,2016,Weak,4.0,Low,Low,High,Good,Air Conditioning|Power Windows
+756,Maruti_Suzuki Swift ZDi,2017,Weak,5.0,Low,Low,High,Recommended,Bluetooth|Alloy Wheels
+757,Maruti_Suzuki Dzire LXi,2019,Weak,5.2,Low,Low,High,Poor,Air Conditioning|Dual Airbags
+758,Maruti_Suzuki Dzire VXi,2020,Weak,6.4,Low,Low,High,Good,Bluetooth|Steering Controls
+759,Maruti_Suzuki Dzire ZXi,2021,Weak,7.5,Low,Low,High,Recommended,Touchscreen|Push Button Start
+760,Maruti_Suzuki Dzire ZXi+,2023,Weak,8.8,Low,Low,High,Recommended,Touchscreen|Camera|Precision Cut Alloys
+761,Maruti_Suzuki Dzire VDi,2018,Weak,5.5,Low,Low,High,Good,Air Conditioning|Power Windows
+762,Maruti_Suzuki Dzire ZDi,2019,Weak,6.8,Low,Low,High,Recommended,Bluetooth|Automatic Climate Control
+763,Maruti_Suzuki Baleno Sigma,2021,Weak,6.2,Low,Low,High,Poor,Air Conditioning|Power Windows
+764,Maruti_Suzuki Baleno Delta,2022,Weak,7.4,Low,Low,High,Good,Touchscreen|Steering Controls
+765,Maruti_Suzuki Baleno Zeta,2023,Weak,8.5,Low,Low,High,Recommended,Touchscreen|Alloy Wheels|Push Button Start
+766,Maruti_Suzuki Baleno Alpha,2023,Weak,9.8,Low,Low,High,Recommended,Touchscreen|Camera|HUD|360 Camera
+767,Maruti_Suzuki Baleno RS 1.0,2017,Moderate,6.5,Low,Medium,Medium,Good,Touchscreen|Camera|Turbocharger
+768,Maruti_Suzuki Brezza LXi,2022,Moderate,8.2,Low,High,Medium,Good,Air Conditioning|Rear AC Vents
+769,Maruti_Suzuki Brezza VXi,2023,Moderate,9.5,Low,High,Medium,Recommended,Touchscreen|Steering Controls
+770,Maruti_Suzuki Brezza ZXi,2023,Moderate,11.0,Low,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+771,Maruti_Suzuki Brezza ZXi+,2024,Moderate,13.0,Low,High,Medium,Recommended,Touchscreen|Camera|HUD|360 Camera
+772,Maruti_Suzuki Vitara Brezza VDi,2018,Moderate,7.5,Low,High,Medium,Good,Bluetooth|Projector Headlamps
+773,Maruti_Suzuki Vitara Brezza ZDi,2019,Moderate,8.8,Low,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+774,Maruti_Suzuki Ertiga LXi,2021,Moderate,8.5,Low,Medium,Medium,Good,Air Conditioning|Projector Headlamps
+775,Maruti_Suzuki Ertiga VXi,2022,Moderate,9.8,Low,Medium,Medium,Recommended,Bluetooth|Rear AC Vents
+776,Maruti_Suzuki Ertiga ZXi,2023,Moderate,11.2,Low,Medium,Medium,Recommended,Touchscreen|Alloy Wheels
+777,Maruti_Suzuki Ertiga ZXi+,2023,Moderate,12.5,Low,Medium,Medium,Recommended,Touchscreen|Camera|SmartPlay Pro
+778,Maruti_Suzuki Ertiga VDi,2017,Moderate,6.5,Low,Medium,Medium,Good,Air Conditioning|Power Windows
+779,Maruti_Suzuki Alto 800 LXi,2020,Weak,3.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+780,Maruti_Suzuki Alto 800 VXi,2021,Weak,4.2,Low,Low,High,Poor,Bluetooth|Front Power Windows
+781,Maruti_Suzuki Alto K10 LXi,2023,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Digital Cluster
+782,Maruti_Suzuki Alto K10 VXi,2023,Weak,5.2,Low,Low,High,Good,Bluetooth|SmartPlay Studio
+783,Maruti_Suzuki Celerio LXi,2022,Weak,5.0,Low,Low,High,Poor,Air Conditioning|Idle Start Stop
+784,Maruti_Suzuki Celerio VXi,2023,Weak,5.8,Low,Low,High,Good,Bluetooth|Power Windows
+785,Maruti_Suzuki Celerio ZXi,2023,Weak,6.5,Low,Low,High,Recommended,Touchscreen|Steering Controls
+786,Maruti_Suzuki Celerio ZXi AMT,2023,Weak,7.2,Low,Low,High,Recommended,Touchscreen|AMT Gearbox
+787,Maruti_Suzuki WagonR LXi,2022,Weak,5.5,Low,Low,High,Poor,Air Conditioning|Dual Airbags
+788,Maruti_Suzuki WagonR VXi,2023,Weak,6.2,Low,Low,High,Good,Bluetooth|Power Windows
+789,Maruti_Suzuki WagonR ZXi,2023,Weak,7.0,Low,Low,High,Recommended,Touchscreen|Steering Controls
+790,Maruti_Suzuki WagonR 1.2 VXi,2023,Weak,6.5,Low,Low,High,Good,Bluetooth|Power Windows
+791,Maruti_Suzuki Ignis Sigma,2021,Weak,5.5,Low,Medium,High,Poor,Air Conditioning|Power Windows
+792,Maruti_Suzuki Ignis Delta,2022,Weak,6.2,Low,Medium,High,Good,Bluetooth|Steering Controls
+793,Maruti_Suzuki Ignis Zeta,2023,Weak,7.0,Low,Medium,High,Recommended,Touchscreen|Push Button Start
+794,Maruti_Suzuki Ignis Alpha,2023,Weak,8.0,Low,Medium,High,Recommended,Touchscreen|Camera|LED Headlamps
+795,Maruti_Suzuki Ciaz Sigma,2021,Moderate,9.0,Low,High,Medium,Good,Air Conditioning|Projector Headlamps
+796,Maruti_Suzuki Ciaz Delta,2022,Moderate,10.0,Low,High,Medium,Recommended,Bluetooth|Alloy Wheels
+797,Maruti_Suzuki Ciaz Zeta,2023,Moderate,11.0,Low,High,Medium,Recommended,Touchscreen|Push Button Start
+798,Maruti_Suzuki Ciaz Alpha,2023,Moderate,12.2,Low,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+799,Maruti_Suzuki S-Cross Sigma,2020,Moderate,8.8,Low,High,Medium,Good,Air Conditioning|Disc Brakes
+800,Maruti_Suzuki S-Cross Alpha,2021,Moderate,11.5,Low,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+801,Hyundai Creta E,2023,Moderate,11.0,Medium,Medium,Medium,Good,Air Conditioning|Projector Headlamps
+802,Hyundai Creta EX,2023,Moderate,12.2,Medium,Medium,Medium,Good,Touchscreen|Bluetooth
+803,Hyundai Creta S,2023,Moderate,13.5,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Cruise Control
+804,Hyundai Creta SX,2023,Moderate,15.5,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof
+805,Hyundai Creta SX(O),2023,Moderate,18.5,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Bose Audio|Ventilated Seats
+806,Hyundai Creta E Diesel,2022,Moderate,12.5,Medium,Medium,High,Good,Air Conditioning|Projector Headlamps
+807,Hyundai Creta S Diesel,2023,Moderate,15.0,Medium,Medium,High,Recommended,Touchscreen|Camera|Cruise Control
+808,Hyundai i20 Magna,2023,Weak,7.5,Low,Medium,Medium,Good,Bluetooth|Steering Controls
+809,Hyundai i20 Sportz,2023,Moderate,8.8,Low,Medium,Medium,Recommended,Touchscreen|Camera|Digital Cluster
+810,Hyundai i20 Asta,2023,Moderate,10.0,Low,Medium,Medium,Recommended,Touchscreen|Camera|Bose Audio
+811,Hyundai i20 Asta(O),2024,Moderate,11.5,Low,Medium,Medium,Recommended,Touchscreen|Camera|Sunroof|Connected Car Tech
+812,Hyundai i20 Era,2021,Weak,6.5,Low,Medium,Medium,Poor,Air Conditioning|Dual Airbags
+813,Hyundai Venue E,2023,Weak,7.8,Low,High,Medium,Poor,Air Conditioning|Power Windows
+814,Hyundai Venue S,2023,Weak,9.0,Low,High,Medium,Good,Touchscreen|Bluetooth
+815,Hyundai Venue SX,2023,Moderate,11.2,Low,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+816,Hyundai Venue SX(O),2024,Moderate,13.5,Low,High,Medium,Recommended,Touchscreen|Camera|ADAS|BlueLink
+817,Hyundai Venue S+,2023,Moderate,10.0,Low,High,High,Recommended,Touchscreen|Camera|Digital Cluster
+818,Hyundai Verna E,2023,Moderate,11.0,Medium,High,Medium,Good,Air Conditioning|Projector Headlamps
+819,Hyundai Verna S,2023,Moderate,12.5,Medium,High,Medium,Good,Touchscreen|Bluetooth|Cruise Control
+820,Hyundai Verna SX,2024,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+821,Hyundai Verna SX(O) Turbo,2024,Moderate,18.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Heated Seats
+822,Hyundai Verna EX,2021,Moderate,9.5,Medium,High,Medium,Good,Bluetooth|Steering Controls
+823,Hyundai Grand i10 Era,2019,Weak,4.5,Low,Low,High,Poor,Air Conditioning|Power Steering
+824,Hyundai Grand i10 Magna,2020,Weak,5.5,Low,Low,High,Good,Bluetooth|Rear AC Vents
+825,Hyundai Grand i10 Sportz,2020,Weak,6.5,Low,Low,High,Recommended,Touchscreen|Camera|Alloy Wheels
+826,Hyundai Grand i10 Asta,2020,Weak,7.2,Low,Low,High,Recommended,Touchscreen|Camera|Push Button Start
+827,Hyundai Nios Era,2023,Weak,5.8,Low,Low,High,Poor,Air Conditioning|Dual Airbags
+828,Hyundai Nios Magna,2023,Weak,6.8,Low,Low,High,Good,Bluetooth|Steering Controls
+829,Hyundai Nios Sportz,2024,Weak,7.8,Low,Low,High,Recommended,Touchscreen|Camera|Projector Headlamps
+830,Hyundai Nios Asta,2024,Weak,8.5,Low,Low,High,Recommended,Touchscreen|Camera|Wireless Charging
+831,Hyundai Aura E,2023,Weak,6.5,Low,Low,High,Poor,Air Conditioning|Dual Airbags
+832,Hyundai Aura S,2023,Weak,7.5,Low,Low,High,Good,Bluetooth|Rear AC Vents
+833,Hyundai Aura SX,2024,Weak,8.8,Low,Low,High,Recommended,Touchscreen|Camera|Alloy Wheels
+834,Hyundai Aura SX(O),2024,Weak,9.5,Low,Low,High,Recommended,Touchscreen|Camera|Wireless Charging
+835,Hyundai Tucson GL,2021,Moderate,24.0,Medium,Low,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+836,Hyundai Tucson GLS,2022,Moderate,28.0,Medium,Low,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+837,Hyundai Tucson 4WD AT,2023,Moderate,36.0,Medium,Low,Medium,Recommended,Touchscreen|Camera|ADAS|AWD
+838,Hyundai Alcazar Prestige,2023,Moderate,17.0,Medium,Medium,Medium,Good,Touchscreen|Camera|Panoramic Sunroof
+839,Hyundai Alcazar Platinum,2023,Moderate,20.0,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Bose Audio
+840,Hyundai Alcazar Signature(O) AT,2024,Moderate,23.5,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|ADAS
+841,Hyundai Santro Era,2019,Weak,4.0,Low,Low,High,Poor,Air Conditioning|Driver Airbag
+842,Hyundai Santro Magna,2020,Weak,4.8,Low,Low,High,Poor,Bluetooth|Rear AC Vents
+843,Hyundai Santro Sportz,2021,Weak,5.5,Low,Low,High,Good,Touchscreen|Steering Controls
+844,Hyundai Santro Asta,2021,Weak,6.0,Low,Low,High,Good,Touchscreen|Camera|Passenger Airbag
+845,Hyundai Elantra S,2018,Moderate,14.0,Medium,High,Medium,Good,Bluetooth|Projector Headlamps
+846,Hyundai Elantra SX,2019,Moderate,16.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+847,Hyundai Elantra SX(O) AT,2021,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|BlueLink
+848,Hyundai Xcent Era,2017,Weak,5.0,Low,Medium,High,Poor,Air Conditioning|Power Steering
+849,Hyundai Xcent Magna,2018,Weak,6.0,Low,Medium,High,Good,Bluetooth|Rear AC Vents
+850,Hyundai Xcent Sportz,2019,Weak,7.0,Low,Medium,High,Recommended,Touchscreen|Camera|Alloy Wheels
+851,Tata Nexon XE,2023,Moderate,8.2,Low,High,Medium,Good,Air Conditioning|Digital Cluster
+852,Tata Nexon XM,2023,Moderate,9.5,Low,High,Medium,Good,Bluetooth|Steering Controls
+853,Tata Nexon XT,2023,Moderate,10.8,Low,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+854,Tata Nexon XZ,2023,Moderate,11.5,Low,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+855,Tata Nexon XZ+,2024,Moderate,12.8,Low,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats
+856,Tata Nexon XZA+ AMT,2024,Moderate,13.5,Low,High,Medium,Recommended,Touchscreen|Camera|AMT Gearbox
+857,Tata Harrier XE,2022,Moderate,15.5,Medium,High,Medium,Good,Air Conditioning|Projector Headlamps
+858,Tata Harrier XM,2023,Moderate,17.2,Medium,High,Medium,Good,Touchscreen|Steering Controls
+859,Tata Harrier XT,2023,Moderate,19.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+860,Tata Harrier XZ,2023,Moderate,21.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Xenon HID
+861,Tata Harrier XZ+,2024,Moderate,23.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Panoramic Sunroof
+862,Tata Harrier XZA AT,2024,Moderate,24.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Automatic Transmission|ADAS
+863,Tata Safari XE,2023,Moderate,16.0,Medium,High,Medium,Good,Air Conditioning|Projector Headlamps
+864,Tata Safari XM,2023,Moderate,18.0,Medium,High,Medium,Good,Touchscreen|Steering Controls
+865,Tata Safari XT,2023,Moderate,20.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+866,Tata Safari XZ,2024,Moderate,22.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Captain Seats
+867,Tata Safari XZ+,2024,Moderate,25.0,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Ventilated Seats
+868,Tata Safari XZA+ AT,2024,Moderate,26.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Automatic Transmission|ADAS
+869,Tata Tiago XE,2022,Weak,5.5,Low,High,High,Poor,Air Conditioning|Digital Cluster
+870,Tata Tiago XM,2023,Weak,6.2,Low,High,High,Good,Bluetooth|Power Windows
+871,Tata Tiago XT,2023,Weak,6.8,Low,High,High,Good,Touchscreen|Steering Controls
+872,Tata Tiago XZ,2024,Weak,7.5,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+873,Tata Tiago XZ+,2024,Weak,8.0,Low,High,High,Recommended,Touchscreen|Camera|Projector Headlamps
+874,Tata Tiago XZA AMT,2024,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|AMT Gearbox
+875,Tata Tigor XE,2022,Weak,6.2,Low,High,High,Poor,Air Conditioning|Digital Cluster
+876,Tata Tigor XM,2023,Weak,6.8,Low,High,High,Good,Bluetooth|Power Windows
+877,Tata Tigor XT,2023,Weak,7.5,Low,High,High,Good,Touchscreen|Steering Controls
+878,Tata Tigor XZ,2024,Weak,8.2,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+879,Tata Tigor XZ+,2024,Weak,9.0,Low,High,High,Recommended,Touchscreen|Camera|Projector Headlamps
+880,Tata Tigor XZA AMT,2024,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|AMT Gearbox
+881,Tata Altroz XE,2023,Weak,6.8,Low,High,High,Poor,Air Conditioning|Drive Modes
+882,Tata Altroz XM,2023,Weak,7.5,Low,High,High,Good,Bluetooth|Steering Controls
+883,Tata Altroz XT,2024,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+884,Tata Altroz XZ,2024,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|Projector Headlamps
+885,Tata Altroz XZ+,2024,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Connected Car Tech|iRA
+886,Tata Punch Pure,2023,Weak,6.2,Low,High,High,Poor,Air Conditioning|Front Power Windows
+887,Tata Punch Adventure,2023,Weak,7.2,Low,High,High,Good,Bluetooth|Steering Controls
+888,Tata Punch Accomplished,2024,Weak,8.2,Low,High,High,Recommended,Touchscreen|Camera|Push Button Start
+889,Tata Punch Creative,2024,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|Projector Headlamps|Alloy Wheels
+890,Tata Hexa XE,2018,Moderate,12.5,Medium,High,Medium,Good,Air Conditioning|Projector Headlamps
+891,Tata Hexa XM,2019,Moderate,14.5,Medium,High,Medium,Good,Touchscreen|Bluetooth|Steering Controls
+892,Tata Hexa XT,2020,Moderate,17.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+893,Tata Hexa XTA AT,2020,Moderate,18.8,Medium,High,Medium,Recommended,Touchscreen|Camera|Automatic Transmission
+894,Tata Hexa XT 4x4 MT,2020,Moderate,19.5,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|Drive Modes
+895,Tata Aria Pure,2012,Moderate,8.5,Medium,Medium,Medium,Poor,Air Conditioning|Projector Headlamps
+896,Tata Aria Pleasure,2013,Moderate,10.0,Medium,Medium,Medium,Good,Bluetooth|Alloy Wheels
+897,Tata Aria Pride AWD,2015,Moderate,12.0,Medium,Medium,Medium,Recommended,Touchscreen|Camera|AWD
+898,Tata Sumo Gold CX,2015,Weak,5.8,Low,Low,Medium,Poor,Power Steering
+899,Tata Sumo Gold EX,2016,Weak,6.5,Low,Low,Medium,Poor,Air Conditioning
+900,Tata Sumo Gold GX,2018,Weak,7.5,Low,Low,Medium,Good,Air Conditioning|Dual AC|Power Windows
+901,Mahindra Scorpio S2,2016,Moderate,9.5,Medium,Low,Medium,Poor,Air Conditioning|Micro-Hybrid Tech
+902,Mahindra Scorpio S4,2017,Moderate,11.0,Medium,Medium,Medium,Good,Air Conditioning|4WD Option
+903,Mahindra Scorpio S6,2018,Moderate,12.5,Medium,Medium,Medium,Good,Bluetooth|Body Colored Bumpers
+904,Mahindra Scorpio S8,2019,Moderate,14.0,Medium,Medium,Medium,Recommended,Touchscreen|Alloy Wheels
+905,Mahindra Scorpio S10,2020,Moderate,16.0,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Projector Headlamps
+906,Mahindra Scorpio S11 4WD,2022,Moderate,18.5,Medium,Medium,Medium,Recommended,Touchscreen|Camera|4WD
+907,Mahindra Scorpio-N Z2,2023,Moderate,13.5,Medium,High,Medium,Good,Touchscreen|Rear AC Vents
+908,Mahindra Scorpio-N Z4,2023,Moderate,15.5,Medium,High,Medium,Good,Touchscreen|Cruise Control|4WD Option
+909,Mahindra Scorpio-N Z6,2024,Moderate,17.5,Medium,High,Medium,Recommended,Touchscreen|Sunroof|Connected Tech
+910,Mahindra Scorpio-N Z8,2024,Moderate,20.5,Medium,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps|4WD
+911,Mahindra Scorpio-N Z8L AT,2024,Moderate,24.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Sony 3D Audio|Automatic Transmission
+912,Mahindra XUV700 MX,2023,Moderate,14.5,Medium,High,Medium,Good,Touchscreen|Smart Door Handles
+913,Mahindra XUV700 AX3 AT,2023,Moderate,18.5,Medium,High,Medium,Good,Touchscreen|Digital Cluster|Automatic Transmission
+914,Mahindra XUV700 AX5 7-Str,2024,Moderate,20.5,Medium,High,Medium,Recommended,Touchscreen|Panoramic Sunroof|LED Headlamps
+915,Mahindra XUV700 AX7,2024,Moderate,23.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|Alloy Wheels
+916,Mahindra XUV700 AX7L AWD,2024,Moderate,27.5,Medium,High,Medium,Recommended,Touchscreen|Camera|ADAS|AWD|Sony Audio
+917,Mahindra XUV500 W4,2015,Moderate,11.5,Medium,Medium,Medium,Poor,Air Conditioning|Projector Headlamps
+918,Mahindra XUV500 W6,2017,Moderate,13.5,Medium,Medium,Medium,Good,Touchscreen|Cruise Control
+919,Mahindra XUV500 W8,2018,Moderate,16.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+920,Mahindra XUV500 W10,2019,Moderate,18.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Sunroof
+921,Mahindra XUV500 W11(O) AWD,2021,Moderate,20.5,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|Connected Tech
+922,Mahindra Thar AX 4x4,2021,Moderate,14.0,Medium,High,Medium,Good,Air Conditioning|4WD|Steel Wheels
+923,Mahindra Thar LX 4x4 AT,2023,Moderate,17.5,Medium,High,Medium,Recommended,Touchscreen|4WD|Automatic Transmission|Alloy Wheels
+924,Mahindra Thar AX Opt 4x4,2022,Moderate,15.5,Medium,High,Medium,Recommended,Bluetooth|4WD|Convertible Top
+925,Mahindra XUV300 W4,2022,Moderate,8.8,Low,High,Medium,Good,Air Conditioning|All Disc Brakes
+926,Mahindra XUV300 W6,2023,Moderate,10.5,Low,High,Medium,Good,Touchscreen|Steering Controls
+927,Mahindra XUV300 W8,2023,Moderate,12.5,Low,High,Medium,Recommended,Touchscreen|Camera|Dual-Zone AC
+928,Mahindra XUV300 W8(O) AMT,2024,Moderate,14.5,Low,High,Medium,Recommended,Touchscreen|Camera|Sunroof|7 Airbags
+929,Mahindra Bolero B4,2022,Weak,9.5,Low,Low,High,Poor,Air Conditioning|Micro-Hybrid Tech
+930,Mahindra Bolero B6(O),2023,Weak,11.2,Low,Low,High,Good,Bluetooth|Driver Airbag|Fog Lamps
+931,Mahindra Bolero SLE,2015,Weak,6.5,Low,Low,High,Poor,Air Conditioning
+932,Mahindra Bolero SLX,2017,Weak,7.8,Low,Low,High,Good,Bluetooth|Power Windows
+933,Mahindra Bolero ZLX,2019,Weak,8.5,Low,Low,High,Recommended,Bluetooth|Driver Information System
+934,Mahindra Bolero Neo N4,2022,Weak,9.8,Low,Medium,High,Poor,Air Conditioning|Eco Mode
+935,Mahindra Bolero Neo N8,2023,Weak,11.0,Low,Medium,High,Good,Bluetooth|Steering Controls
+936,Mahindra Bolero Neo N10,2024,Weak,12.5,Low,Medium,High,Recommended,Touchscreen|Alloy Wheels
+937,Mahindra Bolero Neo N10(O),2024,Weak,13.2,Low,Medium,High,Recommended,Touchscreen|Camera|MLD
+938,Mahindra Marazzo M2,2019,Moderate,11.5,Medium,High,Medium,Poor,Air Conditioning|Roof AC
+939,Mahindra Marazzo M4,2020,Moderate,13.0,Medium,High,Medium,Good,Bluetooth|Shark Fin Antenna
+940,Mahindra Marazzo M6+,2021,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Alloy Wheels
+941,Mahindra Marazzo M8,2022,Moderate,16.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Leatherette Seats
+942,Mahindra KUV100 K2,2017,Weak,4.8,Low,Low,High,Poor,Air Conditioning|Joystick Gear
+943,Mahindra KUV100 K4+,2018,Weak,5.8,Low,Low,High,Good,Air Conditioning|Power Windows
+944,Mahindra KUV100 K6+,2019,Weak,6.8,Low,Low,High,Recommended,Bluetooth|Steering Controls
+945,Mahindra KUV100 K8,2020,Weak,7.8,Low,Low,High,Recommended,Touchscreen|Alloy Wheels|Micro-Hybrid Tech
+946,Honda City E,2015,Moderate,8.5,Low,Medium,Medium,Poor,Air Conditioning|Power Windows
+947,Honda City S,2017,Moderate,10.0,Low,Medium,Medium,Good,Bluetooth|Steering Controls
+948,Honda City V,2019,Moderate,11.5,Low,Medium,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+949,Honda City VX CVT,2021,Moderate,13.8,Low,High,Medium,Recommended,Touchscreen|Camera|Sunroof|Automatic Transmission
+950,Honda City ZX Diesel,2022,Moderate,15.5,Low,High,High,Recommended,Touchscreen|Camera|LED Headlamps|LaneWatch
+951,Honda Amaze E,2022,Weak,7.2,Low,High,High,Poor,Air Conditioning|Dual Airbags
+952,Honda Amaze S,2023,Weak,8.5,Low,High,High,Good,Bluetooth|Steering Controls
+953,Honda Amaze V,2023,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|LED Headlamps
+954,Honda Amaze VX CVT,2024,Weak,10.8,Low,High,High,Recommended,Touchscreen|Camera|Automatic Transmission
+955,Honda Jazz E,2016,Weak,6.5,Low,High,High,Poor,Air Conditioning|LED Tail Lamps
+956,Honda Jazz S,2018,Weak,7.8,Low,High,High,Good,Bluetooth|Steering Controls
+957,Honda Jazz V,2020,Weak,8.8,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+958,Honda Jazz VX CVT,2022,Weak,10.5,Low,High,High,Recommended,Touchscreen|Camera|Magic Seats|Sunroof
+959,Honda WR-V S,2021,Weak,9.5,Low,High,High,Good,Touchscreen|Camera|LED DRLs
+960,Honda WR-V VX Diesel,2023,Moderate,12.5,Low,High,High,Recommended,Touchscreen|Camera|Sunroof
+961,Honda WR-V Exclusive Edition,2022,Weak,11.5,Low,High,High,Recommended,Touchscreen|Camera|Special Decals
+962,Honda BR-V E,2017,Moderate,9.5,Low,High,Medium,Poor,Air Conditioning|Projector Headlamps
+963,Honda BR-V S,2018,Moderate,10.8,Low,High,Medium,Good,Bluetooth|Automatic Climate Control
+964,Honda BR-V V,2019,Moderate,11.8,Low,High,Medium,Recommended,Bluetooth|Alloy Wheels|Push Button Start
+965,Honda BR-V VX CVT,2020,Moderate,13.5,Low,High,Medium,Recommended,Touchscreen|Camera|Leather Seats|Automatic Transmission
+966,Honda CR-V 2.0 2WD,2018,Moderate,26.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+967,Honda CR-V 2.4 4WD,2019,Strong,30.0,Medium,High,Medium,Recommended,Touchscreen|Camera|AWD|Panoramic Sunroof
+968,Honda Civic V CVT,2020,Moderate,19.5,Medium,High,Medium,Good,Touchscreen|Camera|Remote Engine Start
+969,Honda Civic VX,2021,Moderate,21.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Display
+970,Honda Civic ZX Diesel,2021,Moderate,24.0,Medium,High,Medium,Recommended,Touchscreen|Camera|LaneWatch|LED Headlamps
+971,Honda Brio E,2015,Weak,4.5,Low,Medium,High,Poor,Air Conditioning|Power Steering
+972,Honda Brio S,2016,Weak,5.2,Low,Medium,High,Good,Bluetooth|Steering Controls
+973,Honda Brio V,2017,Weak,6.0,Low,Medium,High,Recommended,Bluetooth|Alloy Wheels
+974,Honda Brio VX AT,2018,Weak,7.0,Low,Medium,High,Recommended,Touchscreen|Automatic Transmission
+975,Toyota Fortuner 4x2 MT,2022,Moderate,33.0,Medium,High,Medium,Good,Touchscreen|Camera|Connected Tech
+976,Toyota Fortuner 4x2 AT,2023,Moderate,36.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Automatic Transmission
+977,Toyota Fortuner 4x4 MT,2023,Moderate,39.0,Medium,High,Medium,Recommended,Touchscreen|Camera|4WD
+978,Toyota Fortuner 4x4 AT,2024,Moderate,42.5,Medium,High,Medium,Recommended,Touchscreen|Camera|4WD|Automatic Transmission
+979,Toyota Fortuner Legender 4x2,2024,Moderate,44.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Wireless Charging|Kick Sensor
+980,Toyota Innova G,2015,Moderate,12.0,Medium,Medium,Medium,Poor,Air Conditioning|Power Windows
+981,Toyota Innova V,2016,Moderate,14.5,Medium,Medium,Medium,Good,Bluetooth|Alloy Wheels
+982,Toyota Innova Z,2016,Moderate,16.0,Medium,Medium,Medium,Recommended,Touchscreen|Camera|Leather Seats
+983,Toyota Innova Crysta G,2022,Moderate,18.5,Medium,High,Medium,Good,Touchscreen|Connectivity
+984,Toyota Innova Crysta V,2023,Moderate,21.5,Medium,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+985,Toyota Innova Crysta Z,2023,Moderate,24.5,Medium,High,Medium,Recommended,Touchscreen|Camera|7 Airbags
+986,Toyota Innova Hycross G,2024,Moderate,20.0,Medium,Low,Medium,Good,Touchscreen|LED Headlamps
+987,Toyota Innova Hycross V Hybrid,2024,Moderate,26.5,Medium,Low,Medium,Recommended,Touchscreen|Camera|Strong Hybrid
+988,Toyota Innova Hycross Z Hybrid,2024,Moderate,30.5,Medium,Low,Medium,Recommended,Touchscreen|Camera|ADAS|Panoramic Sunroof
+989,Toyota Glanza G,2023,Weak,8.5,Low,Low,High,Good,Touchscreen|Camera|LED Headlamps
+990,Toyota Glanza V AMT,2024,Weak,10.0,Low,Low,High,Recommended,Touchscreen|Camera|HUD|360 Camera
+991,Toyota Glanza S,2022,Weak,7.5,Low,Low,High,Poor,Touchscreen|Steering Controls
+992,Toyota Urban Cruiser Mid,2022,Moderate,9.5,Low,High,Medium,Good,Touchscreen|LED Headlamps
+993,Toyota Urban Cruiser High,2022,Moderate,10.5,Low,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+994,Toyota Urban Cruiser Premium AT,2023,Moderate,12.0,Low,High,Medium,Recommended,Touchscreen|Camera|Cruise Control|Automatic Transmission
+995,Toyota Yaris J,2019,Moderate,9.0,Low,High,Medium,Poor,Air Conditioning|7 Airbags
+996,Toyota Yaris G,2020,Moderate,10.5,Low,High,Medium,Good,Bluetooth|Projector Headlamps
+997,Toyota Yaris V,2021,Moderate,11.8,Low,High,Medium,Recommended,Touchscreen|Camera|Disc Brakes
+998,Toyota Yaris VX CVT,2022,Moderate,14.5,Low,High,Medium,Recommended,Touchscreen|Camera|Leather Seats|Automatic Transmission
+999,Toyota Camry Hybrid 2.5,2024,Moderate,47.0,Medium,High,High,Recommended,Touchscreen|Camera|ADAS|Hybrid System
+1000,Toyota Corolla Altis G,2018,Moderate,14.0,Medium,High,Medium,Good,Touchscreen|Camera|LED Headlamps
+1001,Toyota Corolla Altis VL CVT,2020,Moderate,17.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Power Seats
+1002,Toyota Etios G,2016,Weak,6.0,Low,High,High,Poor,Air Conditioning|Dual Airbags
+1003,Toyota Etios V,2018,Weak,7.5,Low,High,High,Good,Bluetooth|Alloy Wheels
+1004,Toyota Etios VX,2020,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Steering Controls
+1005,Ford EcoSport Ambiente,2020,Moderate,8.5,Low,High,Medium,Poor,Air Conditioning|Bluetooth
+1006,Ford EcoSport Trend,2021,Moderate,9.5,Low,High,Medium,Good,Touchscreen|Steering Controls
+1007,Ford EcoSport Titanium,2021,Moderate,10.8,Low,High,Medium,Recommended,Touchscreen|Camera|Alloy Wheels
+1008,Ford EcoSport Titanium+ AT,2022,Moderate,12.5,Low,High,Medium,Recommended,Touchscreen|Camera|SYNC 3|Sunroof|Automatic Transmission
+1009,Ford Endeavour Trend,2018,Moderate,28.0,Medium,High,Medium,Good,Touchscreen|Camera|Alloy Wheels
+1010,Ford Endeavour Titanium,2020,Moderate,33.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Terrain Management
+1011,Ford Endeavour Titanium+ 4x4,2021,Moderate,38.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Panoramic Sunroof|4WD
+1012,Ford Figo Ambiente,2019,Weak,5.5,Low,High,High,Poor,Air Conditioning|Dual Airbags
+1013,Ford Figo Trend,2020,Weak,6.5,Low,High,High,Good,Bluetooth|Steering Controls
+1014,Ford Figo Titanium,2021,Weak,7.5,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+1015,Ford Figo Titanium+ AT,2021,Weak,8.8,Low,High,High,Recommended,Touchscreen|Camera|6 Airbags|Automatic Transmission
+1016,Ford Aspire Ambiente,2019,Weak,6.2,Low,High,High,Poor,Air Conditioning|Dual Airbags
+1017,Ford Aspire Trend,2020,Weak,7.2,Low,High,High,Good,Bluetooth|Steering Controls
+1018,Ford Aspire Titanium,2021,Weak,8.2,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+1019,Ford Aspire Titanium+ Diesel,2021,Weak,9.5,Low,High,High,Recommended,Touchscreen|Camera|6 Airbags|Diesel Engine
+1020,Ford Freestyle Ambiente,2019,Weak,6.5,Low,High,High,Poor,Air Conditioning|ARP
+1021,Ford Freestyle Trend,2020,Weak,7.5,Low,High,High,Good,Bluetooth|Steering Controls|ARP
+1022,Ford Freestyle Titanium,2021,Weak,8.5,Low,High,High,Recommended,Touchscreen|Camera|Alloy Wheels
+1023,Ford Freestyle Titanium+ Diesel,2021,Weak,9.8,Low,High,High,Recommended,Touchscreen|Camera|6 Airbags|Diesel Engine
+1024,Ford Mustang V8 GT Fastback,2020,Strong,85.0,High,High,Low,Good,Touchscreen|Camera|Line Lock|Track Apps
+1025,Volkswagen Polo Trendline,2019,Moderate,6.5,Low,High,Medium,Poor,Air Conditioning|Dual Airbags
+1026,Volkswagen Polo Comfortline,2020,Moderate,7.8,Low,High,Medium,Good,Bluetooth|Alloy Wheels
+1027,Volkswagen Polo Highline,2021,Moderate,9.2,Low,High,Medium,Recommended,Touchscreen|Camera|Cornering Lamps
+1028,Volkswagen Polo Highline Plus AT,2022,Moderate,10.8,Low,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps|Automatic Transmission
+1029,Volkswagen Vento Trendline,2018,Moderate,9.0,Low,High,Medium,Poor,Air Conditioning|Dual Airbags
+1030,Volkswagen Vento Comfortline,2019,Moderate,10.5,Low,High,Medium,Good,Bluetooth|Alloy Wheels
+1031,Volkswagen Vento Highline,2021,Moderate,12.2,Low,High,Medium,Recommended,Touchscreen|Camera|Cornering Lamps
+1032,Volkswagen Vento Highline Plus DSG,2022,Moderate,14.5,Low,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps|DSG
+1033,Volkswagen Taigun Comfortline,2023,Moderate,12.0,Medium,High,Medium,Good,Touchscreen|LED Taillights
+1034,Volkswagen Taigun Highline,2024,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Wireless Charging
+1035,Volkswagen Taigun Topline,2024,Moderate,16.8,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|Ventilated Seats
+1036,Volkswagen Taigun GT DSG,2024,Moderate,19.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|DSG
+1037,Skoda Kushaq Active,2023,Moderate,12.0,Medium,High,Medium,Good,Touchscreen|LED Taillights
+1038,Skoda Kushaq Ambition,2024,Moderate,14.5,Medium,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+1039,Skoda Kushaq Style AT,2024,Moderate,18.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Ventilated Seats|Automatic Transmission
+1040,Skoda Slavia Active,2023,Moderate,11.5,Medium,High,Medium,Good,Touchscreen|LED Taillights
+1041,Skoda Slavia Ambition,2024,Moderate,14.0,Medium,High,Medium,Recommended,Touchscreen|Camera|LED Headlamps
+1042,Skoda Slavia Style DSG,2024,Moderate,19.8,Medium,High,Medium,Recommended,Touchscreen|Camera|Digital Cluster|DSG
+1043,Skoda Octavia Style,2022,Moderate,28.0,Medium,High,Medium,Good,Touchscreen|Camera|Virtual Cockpit
+1044,Skoda Octavia L&K,2023,Moderate,33.0,Medium,High,Medium,Recommended,Touchscreen|Camera|Canton Audio|Matrix LED
+1045,Skoda Superb Sportline,2023,Moderate,36.5,Medium,High,Medium,Recommended,Touchscreen|Camera|Virtual Cockpit|Sport Seats
+1046,Renault Kwid RXE,2022,Weak,4.8,Low,Low,High,Poor,Air Conditioning|Digital Cluster
+1047,Renault Kwid RXL,2023,Weak,5.5,Low,Low,High,Good,Bluetooth|Power Windows
+1048,Renault Kwid RXT,2024,Weak,6.2,Low,Low,High,Recommended,Touchscreen|Camera|Voice Recognition
+1049,Renault Triber RXE,2022,Weak,6.5,Low,Low,High,Poor,Air Conditioning|Projector Headlamps
+1050,Renault Triber RXL,2023,Weak,7.5,Low,Low,High,Good,Bluetooth|Rear AC Vents

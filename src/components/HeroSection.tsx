@@ -3,7 +3,7 @@ import { Car, ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/8 rounded-full blur-[120px] animate-float" />

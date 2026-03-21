@@ -1,7 +1,7 @@
 import { Github, Linkedin } from "lucide-react";
 
 const FooterSection = () => (
-  <footer className="border-t border-border/50 py-8 px-4">
+  <footer id="footer" className="border-t border-border/50 py-8 px-4 pb-24">
     <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
       <p>© {new Date().getFullYear()} Car Intelligence System</p>
       <div className="flex gap-4">
