@@ -34,7 +34,7 @@ const BottomNav = () => {
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8 pointer-events-none"
       }`}
     >
-      <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-card/80 backdrop-blur-xl border border-border/60 shadow-[0_8px_40px_rgba(0,0,0,0.5)]">
+      <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-card/80 backdrop-blur-xl border border-border/60 shadow-[0_8px_40px_rgba(0,0,0,0.6)]">
         {sections.map(({ id, icon: Icon, label }) => (
           <button
             key={id}
@@ -42,7 +42,7 @@ const BottomNav = () => {
             title={label}
             className={`flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 active:scale-[0.95] ${
               active === id
-                ? "bg-primary text-primary-foreground shadow-[0_0_16px_hsl(215_90%_56%/0.4)]"
+                ? "bg-primary text-primary-foreground shadow-[0_0_16px_hsl(0_80%_52%/0.35)]"
                 : "text-muted-foreground hover:text-foreground hover:bg-secondary"
             }`}
           >

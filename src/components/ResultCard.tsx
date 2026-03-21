@@ -63,10 +63,7 @@ const ResultCard = ({ prediction, matches = [] }: ResultCardProps) => {
                   <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
                     <Car className="w-4 h-4 text-primary" />
                   </div>
-                  <div>
-                    <p className="text-sm font-semibold leading-tight">{car.name}</p>
-                    <p className="text-xs text-muted-foreground">{car.year}</p>
-                  </div>
+                  <p className="text-sm font-semibold leading-tight">{car.name}</p>
                 </div>
                 <div className="space-y-1.5 text-xs">
                   <div className="flex justify-between">
