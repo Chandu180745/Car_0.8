@@ -20,18 +20,9 @@ interface CarRow {
 const PAGE_SIZE = 12;
 
 const classColor: Record<string, string> = {
-  Recommended: "bg-result-recommended/15 text-result-recommended border-result-recommended/30",
-  Good: "bg-secondary text-foreground border-border",
-  Poor: "bg-result-poor/15 text-result-poor border-result-poor/30",
-};
-
-const levelBadge: Record<string, string> = {
-  Low: "bg-emerald-500/10 text-emerald-400",
-  Weak: "bg-amber-500/10 text-amber-400",
-  Medium: "bg-amber-500/10 text-amber-400",
-  Moderate: "bg-amber-500/10 text-amber-400",
-  High: "bg-rose-500/10 text-rose-400",
-  Strong: "bg-emerald-500/10 text-emerald-400",
+  Recommended: "border-result-recommended/30 bg-result-recommended/10 text-result-recommended",
+  Good: "border-result-good/30 bg-result-good/10 text-result-good",
+  Poor: "border-result-poor/30 bg-result-poor/10 text-result-poor",
 };
 
 const DatasetExplorer = () => {
@@ -91,143 +82,139 @@ const DatasetExplorer = () => {
   return (
     <section id="dataset" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
-        <ScrollReveal className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 mb-6">
-            <Database className="w-3.5 h-3.5 text-primary" />
-            <span className="text-xs text-primary font-medium">1000+ Cars</span>
-          </div>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-3">Dataset Explorer</h2>
-          <p className="text-muted-foreground max-w-lg mx-auto mb-6">
-            Browse the complete training dataset. Search by name, year, or technology.
-          </p>
-          <Button
-            variant={expanded ? "outline" : "hero"}
-            size="lg"
-            className="rounded-xl gap-2"
-            onClick={() => setExpanded(!expanded)}
-          >
-            {expanded ? "Hide Dataset" : "Explore Dataset"}
-            <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`} />
-          </Button>
-        </ScrollReveal>
+        <div className="section-border p-6 sm:p-10">
+          <ScrollReveal className="text-center mb-8">
+            <div className="pill-badge border-primary/20 bg-primary/5 mb-6 mx-auto">
+              <Database className="w-3.5 h-3.5 text-primary" />
+              <span className="text-xs text-primary">1000+ Cars</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-3">Dataset Explorer</h2>
+            <p className="text-muted-foreground max-w-lg mx-auto mb-6 text-sm">
+              Browse the complete training dataset. Search by name, year, or technology.
+            </p>
+            <Button
+              variant={expanded ? "outline" : "hero"}
+              size="lg"
+              className="rounded-full gap-2"
+              onClick={() => setExpanded(!expanded)}
+            >
+              {expanded ? "Hide Dataset" : "Explore Dataset"}
+              <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`} />
+            </Button>
+          </ScrollReveal>
 
-        {expanded && (
-          <div className="animate-reveal-up">
-            {/* Controls */}
-            <div className="glass-card p-4 mb-4">
-              <div className="flex flex-col sm:flex-row gap-3">
-                <div className="relative flex-1">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                  <Input
-                    placeholder="Search cars, years, or tech..."
-                    value={search}
-                    onChange={(e) => setSearch(e.target.value)}
-                    className="pl-9 bg-secondary border-border/50 h-10"
-                  />
-                  {search && (
-                    <button
-                      onClick={() => setSearch("")}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
-                    >
-                      <X className="w-3.5 h-3.5" />
-                    </button>
-                  )}
+          {expanded && (
+            <div className="animate-reveal-up">
+              {/* Controls */}
+              <div className="glass-card p-4 mb-4 rounded-2xl">
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <div className="relative flex-1">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                    <Input
+                      placeholder="Search cars, years, or tech..."
+                      value={search}
+                      onChange={(e) => setSearch(e.target.value)}
+                      className="pl-9 bg-secondary border-border/50 h-10 rounded-full"
+                    />
+                    {search && (
+                      <button
+                        onClick={() => setSearch("")}
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                      >
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    )}
+                  </div>
+                  <Button
+                    variant="outline"
+                    size="default"
+                    className="h-10 gap-2 rounded-full"
+                    onClick={() => setShowFilters(!showFilters)}
+                  >
+                    <SlidersHorizontal className="w-4 h-4" />
+                    Filter
+                  </Button>
                 </div>
-                <Button
-                  variant="outline"
-                  size="default"
-                  className="h-10 gap-2"
-                  onClick={() => setShowFilters(!showFilters)}
-                >
-                  <SlidersHorizontal className="w-4 h-4" />
-                  Filter
-                </Button>
+
+                {showFilters && (
+                  <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-border/50">
+                    {["all", "Recommended", "Good", "Poor"].map((cls) => (
+                      <button
+                        key={cls}
+                        onClick={() => setClassFilter(cls)}
+                        className={`pill-badge transition-all duration-200 active:scale-[0.96] ${
+                          classFilter === cls
+                            ? "bg-primary/15 border-primary/30 text-primary"
+                            : "bg-secondary/50 border-border/30 text-muted-foreground hover:text-foreground"
+                        }`}
+                      >
+                        {cls === "all" ? "All Classes" : cls}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
 
-              {showFilters && (
-                <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-border/50">
-                  {["all", "Recommended", "Good", "Poor"].map((cls) => (
-                    <button
-                      key={cls}
-                      onClick={() => setClassFilter(cls)}
-                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 active:scale-[0.96] ${
-                        classFilter === cls
-                          ? "bg-primary text-primary-foreground"
-                          : "bg-secondary text-muted-foreground hover:text-foreground"
-                      }`}
-                    >
-                      {cls === "all" ? "All Classes" : cls}
-                    </button>
-                  ))}
+              {/* Card Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {pageData.map((car) => (
+                  <div
+                    key={car.id}
+                    className="glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
+                  >
+                    <div className="flex items-start justify-between mb-3">
+                      <div className="min-w-0">
+                        <p className="font-bold text-sm truncate group-hover:text-primary transition-colors">{car.name}</p>
+                        <p className="text-xs text-muted-foreground">₹{car.buyingPrice}L • {car.year}</p>
+                      </div>
+                      <span className={`shrink-0 ml-2 pill-badge text-[10px] font-semibold px-2 py-0.5 ${classColor[car.cls] ?? "bg-secondary text-muted-foreground border-border"}`}>
+                        {car.cls}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-wrap gap-1.5 mb-3">
+                      {[
+                        { label: "Engine", value: car.engineHP },
+                        { label: "Safety", value: car.safetyRating },
+                        { label: "Mileage", value: car.mileage },
+                        { label: "Maint.", value: car.maintenanceCost },
+                      ].map(({ label, value }) => (
+                        <span key={label} className="pill-badge border-border/20 bg-secondary/30 text-[9px] px-2 py-0.5 text-muted-foreground">
+                          {label}: <span className="text-foreground font-medium">{value}</span>
+                        </span>
+                      ))}
+                    </div>
+
+                    {car.technologies && (
+                      <p className="text-[10px] text-muted-foreground leading-relaxed border-t border-border/40 pt-2 truncate">
+                        {car.technologies}
+                      </p>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {filtered.length === 0 && (
+                <div className="glass-card p-12 text-center rounded-2xl">
+                  <p className="text-muted-foreground">No cars match your search.</p>
+                </div>
+              )}
+
+              {totalPages > 1 && (
+                <div className="flex items-center justify-center gap-2 mt-6">
+                  <Button variant="outline" size="icon" className="h-9 w-9 rounded-full" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
+                    <ChevronLeft className="w-4 h-4" />
+                  </Button>
+                  <span className="pill-badge border-border/30 bg-secondary/30 text-sm text-muted-foreground px-4 py-1 tabular-nums">{page + 1} / {totalPages}</span>
+                  <Button variant="outline" size="icon" className="h-9 w-9 rounded-full" disabled={page >= totalPages - 1} onClick={() => setPage((p) => p + 1)}>
+                    <ChevronRight className="w-4 h-4" />
+                  </Button>
+                  <span className="pill-badge border-border/20 bg-secondary/20 text-xs text-muted-foreground px-3 py-0.5">{filtered.length} results</span>
                 </div>
               )}
             </div>
-
-            {/* Card Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {pageData.map((car) => (
-                <div
-                  key={car.id}
-                  className="glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
-                >
-                  <div className="flex items-start justify-between mb-3">
-                    <div className="min-w-0">
-                      <p className="font-semibold text-sm truncate group-hover:text-primary transition-colors">{car.name}</p>
-                      <p className="text-xs text-muted-foreground">₹{car.buyingPrice}L</p>
-                    </div>
-                    <span className={`shrink-0 ml-2 px-2 py-0.5 rounded-full text-[10px] font-semibold border ${classColor[car.cls] ?? "bg-secondary text-muted-foreground"}`}>
-                      {car.cls}
-                    </span>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-xs mb-3">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Engine</span>
-                      <span className={`px-1.5 rounded text-[10px] font-medium ${levelBadge[car.engineHP] ?? ""}`}>{car.engineHP}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Safety</span>
-                      <span className={`px-1.5 rounded text-[10px] font-medium ${levelBadge[car.safetyRating] ?? ""}`}>{car.safetyRating}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Mileage</span>
-                      <span className={`px-1.5 rounded text-[10px] font-medium ${levelBadge[car.mileage] ?? ""}`}>{car.mileage}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Maint.</span>
-                      <span className={`px-1.5 rounded text-[10px] font-medium ${levelBadge[car.maintenanceCost] ?? ""}`}>{car.maintenanceCost}</span>
-                    </div>
-                  </div>
-
-                  {car.technologies && (
-                    <p className="text-[10px] text-muted-foreground leading-relaxed border-t border-border/40 pt-2 truncate">
-                      {car.technologies}
-                    </p>
-                  )}
-                </div>
-              ))}
-            </div>
-
-            {filtered.length === 0 && (
-              <div className="glass-card p-12 text-center">
-                <p className="text-muted-foreground">No cars match your search.</p>
-              </div>
-            )}
-
-            {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-2 mt-6">
-                <Button variant="outline" size="icon" className="h-9 w-9" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-                  <ChevronLeft className="w-4 h-4" />
-                </Button>
-                <span className="text-sm text-muted-foreground px-3 tabular-nums">{page + 1} / {totalPages}</span>
-                <Button variant="outline" size="icon" className="h-9 w-9" disabled={page >= totalPages - 1} onClick={() => setPage((p) => p + 1)}>
-                  <ChevronRight className="w-4 h-4" />
-                </Button>
-                <span className="text-xs text-muted-foreground ml-2">{filtered.length} results</span>
-              </div>
-            )}
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </section>
   );
