@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Loader2, RotateCcw } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import ResultCard from "@/components/ResultCard";
+import { findSimilarCars, CarMatch } from "@/lib/carMatcher";
 
 type DropdownValue = "low" | "medium" | "high";
 
@@ -37,15 +38,20 @@ const PredictSection = () => {
   const [form, setForm] = useState<FormData>(defaultForm);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<string | null>(null);
+  const [matches, setMatches] = useState<CarMatch[]>([]);
 
   const handleChange = (key: keyof FormData, value: string | number | boolean) => {
     setForm((prev) => ({ ...prev, [key]: value }));
     setResult(null);
+    setMatches([]);
   };
 
   const handlePredict = async () => {
     setLoading(true);
     setResult(null);
+    setMatches([]);
+
+    let prediction: string;
 
     try {
       const response = await fetch("http://localhost:5000/predict", {
@@ -54,20 +60,37 @@ const PredictSection = () => {
         body: JSON.stringify(form),
       });
       const data = await response.json();
-      setResult(data.prediction);
+      prediction = data.prediction;
     } catch {
-      // Fallback demo result when backend is unavailable
       await new Promise((r) => setTimeout(r, 1500));
       const demo = ["Poor", "Good", "Recommended"];
-      setResult(demo[Math.floor(Math.random() * demo.length)]);
-    } finally {
-      setLoading(false);
+      prediction = demo[Math.floor(Math.random() * demo.length)];
     }
+
+    // Find similar cars from dataset
+    try {
+      const similar = await findSimilarCars(
+        form.buying_price,
+        form.engine_hp,
+        form.maintenance_cost,
+        form.safety_rating,
+        form.mileage,
+        prediction,
+        3
+      );
+      setMatches(similar);
+    } catch {
+      // silently fail if dataset unavailable
+    }
+
+    setResult(prediction);
+    setLoading(false);
   };
 
   const handleReset = () => {
     setForm(defaultForm);
     setResult(null);
+    setMatches([]);
   };
 
   return (
@@ -182,7 +205,7 @@ const PredictSection = () => {
         {/* Result */}
         {result && (
           <div className="mt-8">
-            <ResultCard prediction={result} />
+            <ResultCard prediction={result} matches={matches} />
           </div>
         )}
       </div>
