@@ -18,7 +18,11 @@ const floatingIcons = [
   { icon: Gauge, x: "90%", y: "45%", delay: 2, size: 16, parallaxSpeed: 0.05 },
 ];
 
-const HeroSection = () => {
+interface HeroProps {
+  onNavigate?: (id: string) => void;
+}
+
+const HeroSection = ({ onNavigate }: HeroProps = {}) => {
   const [clickCount, setClickCount] = useState(0);
   const [showEaster, setShowEaster] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -174,7 +178,7 @@ const HeroSection = () => {
         >
           <Button
             className="h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base rounded-full bg-white/5 backdrop-blur-xl text-foreground font-semibold border border-white/20 hover:bg-white/10 hover:border-white/30 hover:shadow-[0_0_30px_hsl(0_0%_100%/0.08)] active:scale-[0.97] transition-all duration-300"
-            onClick={() => document.getElementById("predict-section")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => onNavigate && onNavigate("predict-section")}
           >
             Get Started
             <ChevronDown className="w-4 h-4 ml-2 animate-bounce flex-shrink-0" />

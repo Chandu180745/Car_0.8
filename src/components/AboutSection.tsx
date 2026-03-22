@@ -19,8 +19,7 @@ const AboutSection = () => {
 
   const smoothProgress = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
 
-  // 3D Tilt and Scale
-  const rotateX = useTransform(smoothProgress, [0, 0.5, 1], [15, 0, -15]);
+  // 3D Scale and Opacity
   const scale = useTransform(smoothProgress, [0, 0.5, 1], [0.85, 1, 0.85]);
   const opacity = useTransform(smoothProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
@@ -29,9 +28,9 @@ const AboutSection = () => {
   const gridY = useTransform(smoothProgress, [0, 1], [30, -30]);
 
   return (
-    <section ref={containerRef} id="how-it-works" className="min-h-screen flex items-center py-12 sm:py-20 px-6 sm:px-8 perspective-[1000px] transform-style-preserve-3d">
+    <section ref={containerRef} id="how-it-works" className="min-h-screen flex items-center py-12 sm:py-20 px-6 sm:px-8">
       <motion.div 
-        style={{ rotateX, scale, opacity, transformStyle: "preserve-3d" }}
+        style={{ scale, opacity }}
         className="max-w-4xl mx-auto w-full"
       >
         <div className="section-border p-4 sm:p-6 md:p-8 glass-card border-violet-500/15 overflow-hidden relative">
