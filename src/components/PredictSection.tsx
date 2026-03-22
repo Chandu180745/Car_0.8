@@ -96,29 +96,29 @@ const PredictSection = () => {
     : `₹${form.buying_price} Lakhs`;
 
   return (
-    <section id="predict-section" className="py-16 sm:py-24 px-4">
+    <section id="predict-section" className="py-12 sm:py-20 px-4">
       <div className="max-w-2xl mx-auto">
-        <div className="section-border p-4 sm:p-6 md:p-10">
-          <ScrollReveal className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Evaluate Your Car</h2>
-            <p className="text-muted-foreground text-sm max-w-lg mx-auto">Enter car specifications for an AI-powered assessment.</p>
+        <div className="section-border p-4 sm:p-6 md:p-8 glass-card border-amber-500/15">
+          <ScrollReveal className="text-center mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-2">Evaluate Your Car</h2>
+            <p className="text-muted-foreground text-xs sm:text-sm max-w-lg mx-auto">Enter car specifications for an AI-powered assessment.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={100} direction="scale">
-            <div className="glass-card p-4 sm:p-6 md:p-8 rounded-2xl">
+            <div className="glass-card p-4 sm:p-6 rounded-2xl border-amber-500/10">
               {/* Buying Price */}
-              <div className="mb-6 sm:mb-8">
-                <div className="flex items-center justify-between mb-3">
+              <div className="mb-5">
+                <div className="flex items-center justify-between mb-2">
                   <label className="text-xs sm:text-sm font-medium flex items-center gap-2">
                     Buying Price
                     <span className="group relative cursor-help">
                       <Info className="w-3.5 h-3.5 text-muted-foreground" />
-                      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 rounded-full bg-secondary text-xs text-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-border/50">
+                      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 rounded-full bg-secondary/80 backdrop-blur-md border border-white/10 text-xs text-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
                         Range: ₹1L to ₹250L (2.5 Crore)
                       </span>
                     </span>
                   </label>
-                  <span className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-rose-500/15 to-orange-500/15 border border-rose-500/20 text-rose-400 text-xs sm:text-sm font-bold">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full bg-rose-500/10 backdrop-blur-md border border-rose-500/20 text-rose-400 text-xs font-bold">
                     {priceDisplay}
                   </span>
                 </div>
@@ -135,8 +135,8 @@ const PredictSection = () => {
                 </div>
               </div>
 
-              {/* Dropdown Fields with icons */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
+              {/* Dropdown Fields */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
                 {dropdownOptions.map(({ label, key, tooltip, icon: Icon, iconColor, gradient }) => (
                   <div key={key}>
                     <label className="text-xs sm:text-sm font-medium mb-1.5 flex items-center gap-2">
@@ -146,7 +146,7 @@ const PredictSection = () => {
                       {label}
                       <span className="group relative cursor-help">
                         <Info className="w-3 h-3 text-muted-foreground" />
-                        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 rounded-full bg-secondary text-xs text-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-border/50">
+                        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 rounded-full bg-secondary/80 backdrop-blur-md border border-white/10 text-xs text-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
                           {tooltip}
                         </span>
                       </span>
@@ -154,7 +154,7 @@ const PredictSection = () => {
                     <select
                       value={form[key]}
                       onChange={(e) => handleChange(key, e.target.value)}
-                      className="w-full h-9 sm:h-10 px-4 rounded-full bg-secondary/80 backdrop-blur-sm border border-border/50 text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-rose-500/50 transition-all"
+                      className="w-full h-9 px-4 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/30 transition-all"
                     >
                       <option value="low">Low</option>
                       <option value="medium">Medium</option>
@@ -164,17 +164,17 @@ const PredictSection = () => {
                 ))}
               </div>
 
-              {/* Feature Checkboxes - just names */}
-              <div className="mb-6 sm:mb-8">
+              {/* Feature Checkboxes */}
+              <div className="mb-5">
                 <p className="text-xs font-medium mb-2 text-muted-foreground">Technologies</p>
-                <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {featureOptions.map(({ key, label }) => (
                     <label
                       key={key}
-                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs cursor-pointer transition-all duration-200 active:scale-[0.96] border ${
+                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs cursor-pointer transition-all duration-200 active:scale-[0.96] backdrop-blur-md ${
                         form[key]
-                          ? "border-rose-500/40 bg-rose-500/15 text-rose-400"
-                          : "border-border/50 bg-secondary/50 text-muted-foreground hover:border-border hover:text-foreground"
+                          ? "border border-amber-500/40 bg-amber-500/10 text-amber-400"
+                          : "border border-white/10 bg-white/5 text-muted-foreground hover:text-foreground hover:bg-white/10"
                       }`}
                     >
                       <input type="checkbox" checked={form[key]} onChange={(e) => handleChange(key, e.target.checked)} className="sr-only" />
@@ -184,10 +184,10 @@ const PredictSection = () => {
                 </div>
               </div>
 
-              {/* Buttons - narrower */}
-              <div className="flex gap-2 sm:gap-3">
+              {/* Buttons */}
+              <div className="flex gap-2">
                 <Button
-                  className="flex-1 h-10 sm:h-11 max-w-[240px] mx-auto rounded-full bg-gradient-to-r from-rose-500 to-amber-500 text-white font-semibold text-xs sm:text-sm hover:shadow-[0_0_24px_hsl(340_80%_55%/0.35)] active:scale-[0.97] transition-all duration-200"
+                  className="flex-1 h-10 max-w-[200px] mx-auto rounded-full bg-white/5 backdrop-blur-xl border border-amber-500/30 text-amber-400 font-semibold text-xs hover:bg-amber-500/10 hover:border-amber-500/50 hover:shadow-[0_0_20px_hsl(38_80%_55%/0.15)] active:scale-[0.97] transition-all duration-200"
                   onClick={handlePredict}
                   disabled={loading}
                 >
@@ -201,9 +201,10 @@ const PredictSection = () => {
                   )}
                 </Button>
                 <Button
-                  className="h-10 sm:h-11 px-4 rounded-full border border-border/50 bg-secondary/50 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-border active:scale-[0.97] transition-all duration-200"
+                  className="h-10 w-10 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 text-muted-foreground hover:text-foreground hover:bg-white/10 active:scale-[0.97] transition-all duration-200"
                   onClick={handleReset}
                   variant="ghost"
+                  size="icon"
                 >
                   <RotateCcw className="w-4 h-4" />
                 </Button>
@@ -212,7 +213,7 @@ const PredictSection = () => {
           </ScrollReveal>
 
           {result && (
-            <div className="mt-6 sm:mt-8">
+            <div className="mt-5">
               <ResultCard prediction={result} matches={matches} />
             </div>
           )}
