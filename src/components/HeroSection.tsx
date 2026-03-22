@@ -42,7 +42,7 @@ const HeroSection = () => {
 
   return (
     <section id="hero" className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden px-4">
-      {/* Parallax ambient blobs - colorful */}
+      {/* Parallax ambient blobs */}
       <div className="absolute inset-0 pointer-events-none">
         <div
           className="absolute w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] rounded-full blur-[120px] sm:blur-[180px] animate-parallax"
@@ -82,12 +82,6 @@ const HeroSection = () => {
         </div>
       ))}
 
-      {/* Dot grid */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: "radial-gradient(hsl(0 0% 50%) 1px, transparent 1px)",
-        backgroundSize: "32px 32px"
-      }} />
-
       {/* Vignette */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,hsl(0_0%_3%)_100%)]" />
 
@@ -117,7 +111,7 @@ const HeroSection = () => {
         </p>
 
         <div className="animate-reveal-up mb-6" style={{ animationDelay: "250ms" }}>
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/40 backdrop-blur-sm border border-border/30 text-[11px] text-muted-foreground">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/20 backdrop-blur-md border border-white/10 text-[11px] text-muted-foreground">
             <Brain className="w-3 h-3 text-violet-400" />
             KNN Classification • 5 Features • 3 Classes
           </span>
@@ -125,7 +119,7 @@ const HeroSection = () => {
 
         <div className="animate-reveal-up" style={{ animationDelay: "300ms" }}>
           <Button
-            className="h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base rounded-full bg-gradient-to-r from-rose-500 to-amber-500 text-white font-semibold hover:shadow-[0_0_30px_hsl(340_80%_55%/0.35)] active:scale-[0.97] transition-all duration-300 backdrop-blur-sm border border-white/10"
+            className="h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base rounded-full bg-white/5 backdrop-blur-xl text-foreground font-semibold border border-white/20 hover:bg-white/10 hover:border-white/30 hover:shadow-[0_0_30px_hsl(0_0%_100%/0.08)] active:scale-[0.97] transition-all duration-300"
             onClick={() => document.getElementById("predict-section")?.scrollIntoView({ behavior: "smooth" })}
           >
             Get Started
@@ -134,9 +128,9 @@ const HeroSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="flex items-center justify-center gap-2 sm:gap-4 mt-10 sm:mt-16 animate-reveal-up flex-wrap px-2" style={{ animationDelay: "450ms" }}>
+        <div className="flex items-center justify-center gap-2 sm:gap-3 mt-10 sm:mt-14 animate-reveal-up flex-wrap px-2" style={{ animationDelay: "450ms" }}>
           {stats.map(({ icon: Icon, value, label, gradient, iconColor }) => (
-            <div key={label} className={`glass-card flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full`}>
+            <div key={label} className="glass-card flex items-center gap-2 px-3 py-2 rounded-full">
               <div className={`w-6 h-6 rounded-full bg-gradient-to-br ${gradient} flex items-center justify-center`}>
                 <Icon className={`w-3 h-3 ${iconColor}`} />
               </div>
