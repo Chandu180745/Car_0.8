@@ -11,6 +11,7 @@ export default defineConfig({
       overlay: false,
     },
   },
+  base: "/Car_0.8/",
   plugins: [react()],
   resolve: {
     alias: {

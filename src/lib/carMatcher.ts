@@ -31,7 +31,8 @@ let cachedCars: RawCar[] | null = null;
 
 async function loadCars(): Promise<RawCar[]> {
   if (cachedCars) return cachedCars;
-  const res = await fetch("/data/Cars_Dataset_KNN.csv");
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const res = await fetch(`${baseUrl}/data/Cars_Dataset_KNN.csv`);
   const text = await res.text();
   const lines = text.trim().split("\n");
   const headers = lines[0].split(",");
@@ -64,7 +65,7 @@ export async function findSimilarCars(
   ];
 
   const scored = cars
-    .filter((c) => c.Class === prediction)
+    .filter((c) => c.Class.toLowerCase() === prediction.toLowerCase())
     .map((c) => {
       const carVec = [
         parseFloat(c.Buying_Price_Lakh),

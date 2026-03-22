@@ -52,8 +52,12 @@ const DatasetExplorer = () => {
   useEffect(() => {
     if (!expanded && cars.length === 0) return;
     if (cars.length > 0) return;
-    fetch("/data/Cars_Dataset_KNN.csv")
-      .then((r) => r.text())
+    const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+    fetch(`${baseUrl}/data/Cars_Dataset_KNN.csv`)
+      .then((r) => {
+        if (!r.ok) throw new Error("Failed to load dataset");
+        return r.text();
+      })
       .then((text) => {
         const lines = text.trim().split("\n");
         const rows = lines.slice(1).map((line) => {
@@ -72,6 +76,9 @@ const DatasetExplorer = () => {
           } as CarRow;
         });
         setCars(rows);
+      })
+      .catch((err) => {
+        console.error("Dataset fetch error:", err);
       });
   }, [expanded, cars.length]);
 
