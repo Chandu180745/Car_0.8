@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Loader2, RotateCcw, Info } from "lucide-react";
+import { Loader2, RotateCcw, Info, Gauge, Wrench, ShieldCheck, Fuel } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import ResultCard from "@/components/ResultCard";
 import { findSimilarCars, CarMatch } from "@/lib/carMatcher";
@@ -33,19 +33,19 @@ const defaultForm: FormData = {
   connected_car: false,
 };
 
-const dropdownOptions: { label: string; key: keyof Pick<FormData, "engine_hp" | "maintenance_cost" | "safety_rating" | "mileage">; tooltip: string; color: string }[] = [
-  { label: "Engine Power", key: "engine_hp", tooltip: "Engine horsepower category (Weak/Moderate/Strong in dataset)", color: "text-primary" },
-  { label: "Maintenance Cost", key: "maintenance_cost", tooltip: "Annual maintenance expense level", color: "text-result-good" },
-  { label: "Safety Rating", key: "safety_rating", tooltip: "Crash test & safety feature rating", color: "text-result-recommended" },
-  { label: "Mileage", key: "mileage", tooltip: "Fuel efficiency rating", color: "text-amber-400" },
+const dropdownOptions: { label: string; key: keyof Pick<FormData, "engine_hp" | "maintenance_cost" | "safety_rating" | "mileage">; tooltip: string; icon: typeof Gauge; iconColor: string; gradient: string }[] = [
+  { label: "Engine Power", key: "engine_hp", tooltip: "Engine horsepower category", icon: Gauge, iconColor: "text-cyan-400", gradient: "from-cyan-500/20 to-blue-500/20" },
+  { label: "Maintenance Cost", key: "maintenance_cost", tooltip: "Annual maintenance expense", icon: Wrench, iconColor: "text-amber-400", gradient: "from-amber-500/20 to-yellow-500/20" },
+  { label: "Safety Rating", key: "safety_rating", tooltip: "Crash test & safety rating", icon: ShieldCheck, iconColor: "text-emerald-400", gradient: "from-emerald-500/20 to-green-500/20" },
+  { label: "Mileage", key: "mileage", tooltip: "Fuel efficiency rating", icon: Fuel, iconColor: "text-violet-400", gradient: "from-violet-500/20 to-purple-500/20" },
 ];
 
-const featureOptions: { key: keyof Pick<FormData, "adas" | "camera" | "sunroof" | "touchscreen" | "connected_car">; label: string; desc: string }[] = [
-  { key: "adas", label: "ADAS", desc: "Advanced Driver Assistance" },
-  { key: "camera", label: "Camera", desc: "360° / Rear Camera" },
-  { key: "sunroof", label: "Sunroof", desc: "Panoramic / Standard" },
-  { key: "touchscreen", label: "Touchscreen", desc: "Infotainment Display" },
-  { key: "connected_car", label: "Connected Car", desc: "IoT & Telematics" },
+const featureOptions: { key: keyof Pick<FormData, "adas" | "camera" | "sunroof" | "touchscreen" | "connected_car">; label: string }[] = [
+  { key: "adas", label: "ADAS" },
+  { key: "camera", label: "Camera" },
+  { key: "sunroof", label: "Sunroof" },
+  { key: "touchscreen", label: "Touchscreen" },
+  { key: "connected_car", label: "Connected Car" },
 ];
 
 const PredictSection = () => {
@@ -66,7 +66,6 @@ const PredictSection = () => {
     setMatches([]);
 
     let prediction: string;
-
     try {
       const response = await fetch("http://localhost:5000/predict", {
         method: "POST",
@@ -82,86 +81,68 @@ const PredictSection = () => {
     }
 
     try {
-      const similar = await findSimilarCars(
-        form.buying_price,
-        form.engine_hp,
-        form.maintenance_cost,
-        form.safety_rating,
-        form.mileage,
-        prediction,
-        3
-      );
+      const similar = await findSimilarCars(form.buying_price, form.engine_hp, form.maintenance_cost, form.safety_rating, form.mileage, prediction, 3);
       setMatches(similar);
-    } catch {
-      // silently fail
-    }
+    } catch { /* silently fail */ }
 
     setResult(prediction);
     setLoading(false);
   };
 
-  const handleReset = () => {
-    setForm(defaultForm);
-    setResult(null);
-    setMatches([]);
-  };
+  const handleReset = () => { setForm(defaultForm); setResult(null); setMatches([]); };
 
   const priceDisplay = form.buying_price >= 100
     ? `₹${(form.buying_price / 100).toFixed(1)} Cr`
     : `₹${form.buying_price} Lakhs`;
 
   return (
-    <section id="predict-section" className="py-24 px-4">
+    <section id="predict-section" className="py-16 sm:py-24 px-4">
       <div className="max-w-2xl mx-auto">
-        <div className="section-border p-6 sm:p-10">
-          <ScrollReveal className="text-center mb-12">
-            <div className="pill-badge border-primary/20 bg-primary/5 mb-6 mx-auto">
-              <span className="text-xs text-primary">🎯 Prediction Engine</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold mb-3">Evaluate Your Car</h2>
-            <p className="text-muted-foreground max-w-lg mx-auto">Enter car specifications below for an AI-powered KNN assessment.</p>
+        <div className="section-border p-4 sm:p-6 md:p-10">
+          <ScrollReveal className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Evaluate Your Car</h2>
+            <p className="text-muted-foreground text-sm max-w-lg mx-auto">Enter car specifications for an AI-powered assessment.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={100} direction="scale">
-            <div className="glass-card p-6 sm:p-8 rounded-2xl">
-              {/* Buying Price Slider */}
-              <div className="mb-8">
+            <div className="glass-card p-4 sm:p-6 md:p-8 rounded-2xl">
+              {/* Buying Price */}
+              <div className="mb-6 sm:mb-8">
                 <div className="flex items-center justify-between mb-3">
-                  <label className="text-sm font-medium flex items-center gap-2">
+                  <label className="text-xs sm:text-sm font-medium flex items-center gap-2">
                     Buying Price
                     <span className="group relative cursor-help">
                       <Info className="w-3.5 h-3.5 text-muted-foreground" />
                       <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 rounded-full bg-secondary text-xs text-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-border/50">
-                        Range: ₹0.5L to ₹3500L from dataset
+                        Range: ₹1L to ₹250L (2.5 Crore)
                       </span>
                     </span>
                   </label>
-                  <span className="pill-badge border-primary/30 bg-primary/10 text-primary text-sm font-bold px-4 py-1">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-rose-500/15 to-orange-500/15 border border-rose-500/20 text-rose-400 text-xs sm:text-sm font-bold">
                     {priceDisplay}
                   </span>
                 </div>
                 <input
-                  type="range"
-                  min={1}
-                  max={3500}
-                  step={1}
+                  type="range" min={1} max={250} step={1}
                   value={form.buying_price}
                   onChange={(e) => handleChange("buying_price", Number(e.target.value))}
                   className="w-full h-2 rounded-full appearance-none cursor-pointer"
                   title="Buying price in lakhs"
                 />
-                <div className="flex justify-between text-xs text-muted-foreground mt-1.5">
+                <div className="flex justify-between text-[10px] text-muted-foreground mt-1">
                   <span>₹1L</span>
-                  <span>₹3500L</span>
+                  <span>₹2.5 Cr</span>
                 </div>
               </div>
 
-              {/* Dropdown Fields */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                {dropdownOptions.map(({ label, key, tooltip, color }) => (
+              {/* Dropdown Fields with icons */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
+                {dropdownOptions.map(({ label, key, tooltip, icon: Icon, iconColor, gradient }) => (
                   <div key={key}>
-                    <label className="text-sm font-medium mb-1.5 flex items-center gap-2">
-                      <span className={color}>●</span>
+                    <label className="text-xs sm:text-sm font-medium mb-1.5 flex items-center gap-2">
+                      <div className={`w-5 h-5 rounded-md bg-gradient-to-br ${gradient} flex items-center justify-center`}>
+                        <Icon className={`w-3 h-3 ${iconColor}`} />
+                      </div>
                       {label}
                       <span className="group relative cursor-help">
                         <Info className="w-3 h-3 text-muted-foreground" />
@@ -173,7 +154,7 @@ const PredictSection = () => {
                     <select
                       value={form[key]}
                       onChange={(e) => handleChange(key, e.target.value)}
-                      className="w-full h-10 px-4 rounded-full bg-secondary border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                      className="w-full h-9 sm:h-10 px-4 rounded-full bg-secondary/80 backdrop-blur-sm border border-border/50 text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-rose-500/50 transition-all"
                     >
                       <option value="low">Low</option>
                       <option value="medium">Medium</option>
@@ -183,55 +164,46 @@ const PredictSection = () => {
                 ))}
               </div>
 
-              {/* Feature Checkboxes */}
-              <div className="mb-8">
-                <p className="text-sm font-medium mb-3 text-muted-foreground">Modern Technologies</p>
-                <div className="flex flex-wrap gap-2">
-                  {featureOptions.map(({ key, label, desc }) => (
+              {/* Feature Checkboxes - just names */}
+              <div className="mb-6 sm:mb-8">
+                <p className="text-xs font-medium mb-2 text-muted-foreground">Technologies</p>
+                <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                  {featureOptions.map(({ key, label }) => (
                     <label
                       key={key}
-                      className={`pill-badge cursor-pointer transition-all duration-200 active:scale-[0.96] ${
+                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs cursor-pointer transition-all duration-200 active:scale-[0.96] border ${
                         form[key]
-                          ? "border-primary/50 bg-primary/15 text-primary"
+                          ? "border-rose-500/40 bg-rose-500/15 text-rose-400"
                           : "border-border/50 bg-secondary/50 text-muted-foreground hover:border-border hover:text-foreground"
                       }`}
                     >
-                      <input
-                        type="checkbox"
-                        checked={form[key]}
-                        onChange={(e) => handleChange(key, e.target.checked)}
-                        className="sr-only"
-                      />
-                      <span className="text-xs">{label}</span>
-                      <span className="text-[9px] opacity-60 hidden sm:inline">· {desc}</span>
+                      <input type="checkbox" checked={form[key]} onChange={(e) => handleChange(key, e.target.checked)} className="sr-only" />
+                      {label}
                     </label>
                   ))}
                 </div>
               </div>
 
-              {/* Buttons */}
-              <div className="flex gap-3">
+              {/* Buttons - narrower */}
+              <div className="flex gap-2 sm:gap-3">
                 <Button
-                  variant="predict"
-                  size="lg"
-                  className="flex-1 h-12 rounded-full"
+                  className="flex-1 h-10 sm:h-11 max-w-[240px] mx-auto rounded-full bg-gradient-to-r from-rose-500 to-amber-500 text-white font-semibold text-xs sm:text-sm hover:shadow-[0_0_24px_hsl(340_80%_55%/0.35)] active:scale-[0.97] transition-all duration-200"
                   onClick={handlePredict}
                   disabled={loading}
                 >
                   {loading ? (
                     <>
-                      <Loader2 className="w-5 h-5 animate-spin-slow" />
+                      <Loader2 className="w-4 h-4 animate-spin" />
                       Analyzing...
                     </>
                   ) : (
-                    "🔍 Predict Classification"
+                    "🔍 Predict"
                   )}
                 </Button>
                 <Button
-                  variant="reset"
-                  size="lg"
-                  className="h-12 rounded-full px-5"
+                  className="h-10 sm:h-11 px-4 rounded-full border border-border/50 bg-secondary/50 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-border active:scale-[0.97] transition-all duration-200"
                   onClick={handleReset}
+                  variant="ghost"
                 >
                   <RotateCcw className="w-4 h-4" />
                 </Button>
@@ -240,7 +212,7 @@ const PredictSection = () => {
           </ScrollReveal>
 
           {result && (
-            <div className="mt-8">
+            <div className="mt-6 sm:mt-8">
               <ResultCard prediction={result} matches={matches} />
             </div>
           )}

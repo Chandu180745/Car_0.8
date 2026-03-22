@@ -29,24 +29,20 @@ const BottomNav = () => {
   }, []);
 
   return (
-    <nav
-      className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8 pointer-events-none"
-      }`}
-    >
-      <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-card/80 backdrop-blur-xl border border-border/60 shadow-[0_8px_40px_rgba(0,0,0,0.6)]">
+    <nav className={`fixed bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8 pointer-events-none"}`}>
+      <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-card/70 backdrop-blur-xl border border-border/40 shadow-[0_8px_40px_rgba(0,0,0,0.6)]">
         {sections.map(({ id, icon: Icon, label }) => (
           <button
             key={id}
             onClick={() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })}
             title={label}
-            className={`flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 active:scale-[0.95] ${
+            className={`flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full transition-all duration-300 active:scale-[0.95] ${
               active === id
-                ? "bg-primary text-primary-foreground shadow-[0_0_16px_hsl(0_80%_52%/0.35)]"
-                : "text-muted-foreground hover:text-foreground hover:bg-secondary"
+                ? "bg-gradient-to-br from-rose-500 to-amber-500 text-white shadow-[0_0_12px_hsl(340_80%_55%/0.3)]"
+                : "text-muted-foreground hover:text-foreground hover:bg-secondary/60"
             }`}
           >
-            <Icon className="w-4.5 h-4.5" />
+            <Icon className="w-4 h-4" />
           </button>
         ))}
       </div>
